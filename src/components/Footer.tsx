@@ -8,13 +8,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">e</span>
               </div>
               <span className="font-bold text-white">edu.cloud</span>
             </Link>
             <p className="text-sm text-gray-400">
-              Research services for higher education to demonstrate the impact of education and research on alumni success and society.
+              Measure the impact of your education and research on alumni success and society.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
-              © 2024 edu.cloud. All rights reserved.
+              (c) 2024 edu.cloud. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-white transition">
