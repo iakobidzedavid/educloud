@@ -48,9 +48,9 @@ export default function Impact() {
           {metrics.map((metric, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 text-center border border-blue-100"
+              className="bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-8 text-center border border-yellow-200"
             >
-              <div className="text-4xl sm:text-5xl font-bold text-blue-600 mb-2">
+              <div className="text-4xl sm:text-5xl font-bold text-yellow-600 mb-2">
                 {metric.number}
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">{metric.label}</h3>
@@ -59,32 +59,32 @@ export default function Impact() {
           ))}
         </div>
 
-        <div className="mt-16 bg-gray-50 rounded-2xl p-8 sm:p-12 border border-gray-200">
+        <div className="mt-16 bg-yellow-50 rounded-2xl p-8 sm:p-12 border border-yellow-200">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Institutions Choose edu.cloud</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex gap-4">
-              <span className="text-2xl">✓</span>
+              <span className="text-2xl">check</span>
               <div>
                 <p className="font-semibold text-gray-900">Data-Driven Insights</p>
                 <p className="text-gray-600 text-sm">Verified research across millions of professional profiles</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <span className="text-2xl">✓</span>
+              <span className="text-2xl">check</span>
               <div>
                 <p className="font-semibold text-gray-900">Compliance Ready</p>
                 <p className="text-gray-600 text-sm">GDPR and privacy-compliant research processes</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <span className="text-2xl">✓</span>
+              <span className="text-2xl">check</span>
               <div>
                 <p className="font-semibold text-gray-900">Actionable Reports</p>
                 <p className="text-gray-600 text-sm">Beautiful dashboards and narratives for stakeholders</p>
               </div>
             </div>
             <div className="flex gap-4">
-              <span className="text-2xl">✓</span>
+              <span className="text-2xl">check</span>
               <div>
                 <p className="font-semibold text-gray-900">Expert Support</p>
                 <p className="text-gray-600 text-sm">Dedicated team to guide your impact measurement journey</p>

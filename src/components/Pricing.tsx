@@ -67,32 +67,32 @@ const Pricing = () => {
               key={index}
               className={`rounded-2xl p-8 flex flex-col h-full transition duration-300 ${
                 plan.popular
-                  ? 'bg-blue-600 text-white shadow-2xl scale-105'
+                  ? 'bg-yellow-500 text-gray-900 shadow-2xl scale-105'
                   : 'bg-white border border-gray-200 hover:shadow-lg'
               }`}
             >
               {plan.popular && (
-                <div className="mb-4 inline-block w-fit px-4 py-1 bg-blue-500 rounded-full text-sm font-semibold">
+                <div className="mb-4 inline-block w-fit px-4 py-1 bg-yellow-400 rounded-full text-sm font-semibold text-gray-900">
                   Most Popular
                 </div>
               )}
-              <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-white' : 'text-gray-900'}`}>
+              <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-gray-900' : 'text-gray-900'}`}>
                 {plan.name}
               </h3>
-              <p className={`mb-6 ${plan.popular ? 'text-blue-100' : 'text-gray-600'}`}>
+              <p className={`mb-6 ${plan.popular ? 'text-gray-800' : 'text-gray-600'}`}>
                 {plan.description}
               </p>
               <div className="mb-6">
                 <span className="text-5xl font-bold">{plan.price}</span>
-                <span className={`text-sm ml-2 ${plan.popular ? 'text-blue-100' : 'text-gray-600'}`}>
+                <span className={`text-sm ml-2 ${plan.popular ? 'text-gray-800' : 'text-gray-600'}`}>
                   {plan.period}
                 </span>
               </div>
               <button
                 className={`w-full py-3 rounded-lg font-semibold mb-8 transition ${
                   plan.popular
-                    ? 'bg-white text-blue-600 hover:bg-blue-50'
-                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                    ? 'bg-gray-900 text-yellow-400 hover:bg-gray-800'
+                    : 'bg-yellow-500 text-gray-900 hover:bg-yellow-600'
                 }`}
               >
                 Get Started
@@ -111,7 +111,7 @@ const Pricing = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className={plan.popular ? 'text-blue-100' : 'text-gray-700'}>
+                    <span className={plan.popular ? 'text-gray-900' : 'text-gray-700'}>
                       {feature}
                     </span>
                   </li>

@@ -7,44 +7,44 @@ export default function ResourcesPage() {
       type: 'Case Study',
       title: 'How a Top Research University Increased Fundraising by 40%',
       description: 'Learn how comprehensive alumni impact data strengthened capital campaign storytelling and donor engagement.',
-      icon: '📊',
+      icon: '3',
     },
     {
       type: 'Whitepaper',
       title: 'Measuring Alumni Economic Impact: A Framework for Higher Ed',
       description: 'A detailed guide to calculating and communicating the economic impact of your institution through alumni outcomes.',
-      icon: '📄',
+      icon: '2',
     },
     {
       type: 'Webinar',
       title: 'Beyond Rankings: Alternative Metrics for Demonstrating Institutional Value',
       description: 'Discover metrics beyond traditional rankings that resonate with stakeholders and showcase your institution\'s unique impact.',
-      icon: '🎥',
+      icon: '1',
     },
     {
       type: 'Blog',
       title: 'The Hidden Value of Alumni Data: What Your Institution Can Learn',
       description: 'Explore how alumni professional journeys reveal insights about curriculum effectiveness and program ROI.',
-      icon: '✍️',
+      icon: '0',
     },
     {
       type: 'Report',
       title: 'Alumni Entrepreneurship Trends: 2024 Analysis',
       description: 'Analysis of company formation, funding, and exit events among recent graduates across institutions.',
-      icon: '📈',
+      icon: '9',
     },
     {
       type: 'Template',
       title: 'Impact Narrative Template for Fundraising',
       description: 'Ready-to-use template for crafting compelling impact stories with alumni achievement data.',
-      icon: '📋',
+      icon: '8',
     },
   ];
 
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-yellow-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
             Resources & Insights
@@ -61,18 +61,18 @@ export default function ResourcesPage() {
             {resources.map((resource, index) => (
               <div
                 key={index}
-                className="p-6 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-lg transition cursor-pointer"
+                className="p-6 bg-yellow-50 rounded-xl border border-yellow-200 hover:shadow-lg transition cursor-pointer"
               >
                 <div className="text-3xl mb-4">{resource.icon}</div>
-                <div className="text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wide">
+                <div className="text-sm font-semibold text-yellow-600 mb-2 uppercase tracking-wide">
                   {resource.type}
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
                   {resource.title}
                 </h3>
                 <p className="text-gray-600 text-sm">{resource.description}</p>
-                <button className="mt-4 text-blue-600 font-semibold hover:text-blue-700 transition">
-                  Access →
+                <button className="mt-4 text-yellow-600 font-semibold hover:text-yellow-700 transition">
+                  Access arrow
                 </button>
               </div>
             ))}
@@ -80,7 +80,7 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      <section className="py-20 sm:py-32 bg-gray-50">
+      <section className="py-20 sm:py-32 bg-yellow-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
           <p className="text-lg text-gray-600 mb-8">
@@ -90,12 +90,12 @@ export default function ResourcesPage() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"
+              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 outline-none"
               required
             />
             <button
               type="submit"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
+              className="px-6 py-3 bg-yellow-500 text-gray-900 rounded-lg font-semibold hover:bg-yellow-600 transition"
             >
               Subscribe
             </button>
