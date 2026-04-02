@@ -23,24 +23,24 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Product</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
-                  Features
+                <Link href="/platform" className="text-gray-400 hover:text-white transition">
+                  Platform
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
-                  Pricing
+                <Link href="/solutions" className="text-gray-400 hover:text-white transition">
+                  Solutions
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
-                  Case Studies
+                <Link href="/resources" className="text-gray-400 hover:text-white transition">
+                  Resources
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-white transition">
                   Documentation
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -50,24 +50,24 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <Link href="/about" className="text-gray-400 hover:text-white transition">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-white transition">
                   Blog
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <Link href="/contact" className="text-gray-400 hover:text-white transition">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-white transition">
                   Careers
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -77,24 +77,24 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <Link href="/privacy" className="text-gray-400 hover:text-white transition">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <Link href="/terms" className="text-gray-400 hover:text-white transition">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-white transition">
                   Cookie Policy
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="#" className="text-gray-400 hover:text-white transition">
+                <a href="#" className="text-gray-400 hover:text-white transition">
                   Compliance
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -106,15 +106,15 @@ export default function Footer() {
               © 2024 edu.cloud. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <Link href="#" className="text-gray-400 hover:text-white transition">
+              <a href="#" className="text-gray-400 hover:text-white transition">
                 Twitter
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition">
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white transition">
                 LinkedIn
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition">
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white transition">
                 Facebook
-              </Link>
+              </a>
             </div>
           </div>
         </div>
