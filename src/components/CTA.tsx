@@ -6,7 +6,7 @@ export default function CTA() {
           Ready to Measure Your Impact?
         </h2>
         <p className="text-lg text-blue-100 mb-8 leading-relaxed">
-          Join hundreds of higher education institutions demonstrating the real-world outcomes of their education and research programs.
+          Join hundreds of higher education institutions discovering the true story of their alumni's success and demonstrating their value to the world.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition font-semibold">

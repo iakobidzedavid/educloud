@@ -50,21 +50,21 @@ export default function AboutPage() {
                   <span className="text-blue-600 font-bold mr-4 text-xl">✓</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Comprehensive Research</h3>
-                    <p className="text-gray-600">We go beyond LinkedIn to identify all significant alumni achievements.</p>
+                    <p className="text-gray-600">We go beyond LinkedIn to identify all significant alumni achievements across thousands of sources.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-4 text-xl">✓</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Data-Driven Storytelling</h3>
-                    <p className="text-gray-600">Turn metrics into narratives that resonate with donors and stakeholders.</p>
+                    <p className="text-gray-600">Turn metrics into narratives that resonate with donors, trustees, and prospective students.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-4 text-xl">✓</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Scalable Solutions</h3>
-                    <p className="text-gray-600">Handle portfolios from hundreds to millions of alumni efficiently.</p>
+                    <p className="text-gray-600">Handle portfolios from hundreds to tens of thousands of alumni efficiently and affordably.</p>
                   </div>
                 </li>
               </ul>

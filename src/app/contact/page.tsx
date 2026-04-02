@@ -39,7 +39,7 @@ export default function Contact() {
                 Get Started with edu.cloud
               </h1>
               <p className="text-xl text-gray-600">
-                Contact us to learn how we can help your institution measure and demonstrate its impact.
+                Contact us to learn how we can help your institution measure and demonstrate its alumni impact.
               </p>
             </div>
 
