@@ -1,46 +1,46 @@
-const Features = () => {
+export default function Features() {
   const features = [
     {
-      icon: '⚡',
-      title: 'Lightning Fast',
-      description: 'Optimized performance with instant load times. Built on modern architecture for blazing fast execution.',
-    },
-    {
-      icon: '🔒',
-      title: 'Enterprise Security',
-      description: 'Bank-level encryption and security protocols. Your data is protected with industry-leading standards.',
-    },
-    {
       icon: '📊',
-      title: 'Advanced Analytics',
-      description: 'Real-time insights and comprehensive dashboards. Track every metric that matters to your business.',
+      title: 'Comprehensive Research',
+      description: 'We analyze vast online data sources to track each alumnus professional trajectory and achievements.',
     },
     {
-      icon: '🔄',
-      title: 'Easy Integration',
-      description: 'Seamless API integration with popular tools. Connect with your favorite services in minutes.',
+      icon: '🚀',
+      title: 'Entrepreneurship Tracking',
+      description: 'Identify companies founded by your alumni, from startups to established enterprises.',
+    },
+    {
+      icon: '💼',
+      title: 'Career Advancement Metrics',
+      description: 'Monitor promotions, leadership positions, and career progression across your graduate network.',
+    },
+    {
+      icon: '💰',
+      title: 'Capital Raised Intelligence',
+      description: 'Measure venture capital, private equity, and funding achievements by your alumni founders.',
+    },
+    {
+      icon: '🎯',
+      title: 'Exit Event Analysis',
+      description: 'Track mergers, acquisitions, IPOs, and other significant exits involving your alumni.',
     },
     {
       icon: '👥',
-      title: 'Team Collaboration',
-      description: 'Built-in tools for seamless team coordination. Work together efficiently with real-time updates.',
-    },
-    {
-      icon: '🎨',
-      title: 'Customizable Design',
-      description: 'Flexible themes and components. Create your perfect interface without coding limits.',
+      title: 'Job Creation Impact',
+      description: 'Quantify total employment created by businesses founded and led by your graduates.',
     },
   ];
 
   return (
-    <section id="features" className="py-20 sm:py-32 bg-white">
+    <section className="py-20 sm:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Powerful Features
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Comprehensive Impact Intelligence
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to build, deploy, and scale your applications with confidence.
+            Track the metrics that matter most to your institution's mission and stakeholders.
           </p>
         </div>
 
@@ -48,17 +48,17 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-8 rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-lg transition duration-300 bg-gray-50 hover:bg-white"
+              className="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition"
             >
               <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                {feature.title}
+              </h3>
+              <p className="text-gray-600">{feature.description}</p>
             </div>
           ))}
         </div>
       </div>
     </section>
   );
-};
-
-export default Features;
+}
