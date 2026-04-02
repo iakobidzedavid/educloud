@@ -76,15 +76,21 @@ const Pricing = () => {
                   Most Popular
                 </div>
               )}
-              <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-gray-900' : 'text-gray-900'}`}>
+              <h3 className={`text-2xl font-bold mb-2 ${
+                plan.popular ? 'text-gray-900' : 'text-gray-900'
+              }`}>
                 {plan.name}
               </h3>
-              <p className={`mb-6 ${plan.popular ? 'text-gray-800' : 'text-gray-600'}`}>
+              <p className={`mb-6 ${
+                plan.popular ? 'text-gray-800' : 'text-gray-600'
+              }`}>
                 {plan.description}
               </p>
               <div className="mb-6">
                 <span className="text-5xl font-bold">{plan.price}</span>
-                <span className={`text-sm ml-2 ${plan.popular ? 'text-gray-800' : 'text-gray-600'}`}>
+                <span className={`text-sm ml-2 ${
+                  plan.popular ? 'text-gray-800' : 'text-gray-600'
+                }`}>
                   {plan.period}
                 </span>
               </div>
