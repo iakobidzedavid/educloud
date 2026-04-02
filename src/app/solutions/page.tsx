@@ -6,7 +6,7 @@ export default function SolutionsPage() {
     {
       title: 'Institutional Advancement',
       description: 'Strengthen fundraising efforts by demonstrating quantifiable alumni success and return on educational investment.',
-      use_cases: [
+      useCases: [
         'Capital campaign storytelling',
         'Endowment justification',
         'Donor engagement materials',
@@ -15,7 +15,7 @@ export default function SolutionsPage() {
     {
       title: 'Strategic Planning',
       description: 'Use comprehensive alumni outcome data to inform curriculum development and program investment decisions.',
-      use_cases: [
+      useCases: [
         'Program assessment',
         'Career outcomes analysis',
         'Alumni network intelligence',
@@ -23,8 +23,8 @@ export default function SolutionsPage() {
     },
     {
       title: 'Marketing & Communications',
-      description: 'Showcase your institution's impact with compelling statistics and success stories of your alumni.',
-      use_cases: [
+      description: 'Showcase your institution\'s impact with compelling statistics and success stories of your alumni.',
+      useCases: [
         'Recruitment materials',
         'Annual reports',
         'Social proof & testimonials',
@@ -32,8 +32,8 @@ export default function SolutionsPage() {
     },
     {
       title: 'Economic Impact Analysis',
-      description: 'Demonstrate your institution's contribution to regional and national economic development.',
-      use_cases: [
+      description: 'Demonstrate your institution\'s contribution to regional and national economic development.',
+      useCases: [
         'Government grant applications',
         'Economic impact reports',
         'Policy advocacy',
@@ -50,7 +50,7 @@ export default function SolutionsPage() {
             Solutions for Every Institutional Need
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-2xl mx-auto">
-            Whether you're fundraising, planning strategy, or communicating impact, edu.cloud delivers the insights you need.
+            Whether you\'re fundraising, planning strategy, or communicating impact, edu.cloud delivers the insights you need.
           </p>
         </div>
       </section>
@@ -67,10 +67,10 @@ export default function SolutionsPage() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-3">Use Cases:</h4>
                   <ul className="space-y-2">
-                    {solution.use_cases.map((use_case, idx) => (
+                    {solution.useCases.map((useCase, idx) => (
                       <li key={idx} className="flex items-start">
                         <span className="text-blue-600 mr-3">✓</span>
-                        <span className="text-gray-600">{use_case}</span>
+                        <span className="text-gray-600">{useCase}</span>
                       </li>
                     ))}
                   </ul>
