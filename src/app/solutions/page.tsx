@@ -1,30 +1,28 @@
-'use client';
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 const solutions = [
   {
     title: 'Institutional Advancement',
-    description: 'Demonstrate the transformative impact of your institution on alumni careers and society.',
+    description: 'Empower your advancement team with comprehensive alumni outcome data to strengthen donor relationships and increase philanthropic support.',
     use_cases: [
-      'Capital campaign support',
-      'Board presentations',
-      'Donor engagement materials',
-      'Strategic planning',
+      'Donor recognition programs',
+      'Capital campaign justification',
+      'Alumni engagement initiatives',
+      'Prospect identification',
     ],
-    metrics: ['Career progression', 'Job creation', 'Venture capital raised', 'Exits (M&A, IPO)'],
+    icon: '🏆',
   },
   {
-    title: 'Accreditation & Program Review',
-    description: 'Provide evidence-based outcome data for accreditation bodies and internal program assessments.',
+    title: 'Strategic Planning',
+    description: 'Use data-driven insights about alumni career trajectories and outcomes to inform curriculum development and strategic initiatives.',
     use_cases: [
-      'Accreditation self-studies',
-      'Program effectiveness reports',
-      'Learning outcomes documentation',
-      'Compliance reporting',
+      'Program evaluation',
+      'Curriculum optimization',
+      'Industry alignment',
+      'Competitive positioning',
     ],
-    metrics: ['Employment rates', 'Salary outcomes', 'Professional certifications', 'Graduate placements'],
+    icon: '🎯',
   },
   {
     title: 'Marketing & Communications',
@@ -32,72 +30,80 @@ const solutions = [
     use_cases: [
       'Recruitment materials',
       'Annual reports',
-      'Website content',
-      'Social media campaigns',
-      'Video testimonials',
+      'Prospective student engagement',
+      'Brand storytelling',
     ],
-    metrics: ['Notable alumni achievements', 'Industry placements', 'Startup founders', 'Executive leaders'],
+    icon: '📢',
   },
   {
-    title: 'Strategic Planning & Analytics',
-    description: 'Use comprehensive alumni outcome data to inform institutional strategy and program development.',
+    title: 'Accreditation & Reporting',
+    description: 'Fulfill accreditation requirements and demonstrate institutional effectiveness with comprehensive alumni outcome data.',
     use_cases: [
-      'Curriculum optimization',
-      'Program benchmarking',
-      'Market positioning',
-      'Alumni engagement strategy',
+      'Learning outcome assessment',
+      'Accreditation documentation',
+      'Regulatory compliance',
+      'Accountability reporting',
     ],
-    metrics: ['Peer comparisons', 'Trend analysis', 'Industry demand mapping', 'Alumni network value'],
+    icon: '✅',
+  },
+  {
+    title: 'Enrollment Management',
+    description: 'Strengthen recruitment and retention strategies by demonstrating clear career pathways and alumni success metrics.',
+    use_cases: [
+      'Student recruitment',
+      'Retention programs',
+      'Career guidance',
+      'Program positioning',
+    ],
+    icon: '📈',
+  },
+  {
+    title: 'Research & Analytics',
+    description: 'Conduct longitudinal studies on alumni outcomes and explore correlations between institutional factors and career success.',
+    use_cases: [
+      'Longitudinal studies',
+      'Correlation analysis',
+      'Peer benchmarking',
+      'Publication-ready data',
+    ],
+    icon: '🔬',
   },
 ];
 
 export default function SolutionsPage() {
   return (
-    <div className="min-h-screen bg-white flex flex-col">
+    <>
       <Header />
-      <main className="flex-grow">
+      <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Solutions for Every Department</h1>
-            <p className="text-xl text-blue-100 max-w-2xl">
-              Tailored approaches to demonstrate institutional impact across your organization.
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl font-bold mb-4">Solutions for Every Department</h1>
+            <p className="text-xl text-blue-100">
+              edu.cloud provides tailored approaches to alumni impact research for advancement, strategic planning, marketing, and more.
             </p>
           </div>
         </section>
 
         {/* Solutions Grid */}
         <section className="py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="space-y-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {solutions.map((solution, index) => (
-                <div key={index} className="bg-gray-50 p-8 rounded-lg border border-gray-200">
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">{solution.title}</h2>
-                  <p className="text-lg text-gray-700 mb-6">{solution.description}</p>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-900 mb-4">Use Cases</h3>
-                      <ul className="space-y-2">
-                        {solution.use_cases.map((use_case, idx) => (
-                          <li key={idx} className="flex items-start text-gray-700">
-                            <span className="text-blue-600 font-bold mr-3">✓</span>
-                            <span>{use_case}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-900 mb-4">Key Metrics Tracked</h3>
-                      <ul className="space-y-2">
-                        {solution.metrics.map((metric, idx) => (
-                          <li key={idx} className="flex items-start text-gray-700">
-                            <span className="text-blue-600 font-bold mr-3">📊</span>
-                            <span>{metric}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                <div key={index} className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
+                  <div className="text-5xl mb-4">{solution.icon}</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">{solution.title}</h3>
+                  <p className="text-gray-600 mb-6">{solution.description}</p>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-3">Use Cases:</h4>
+                    <ul className="space-y-2">
+                      {solution.use_cases.map((use_case, i) => (
+                        <li key={i} className="text-gray-600 flex items-start">
+                          <span className="text-blue-600 mr-2">•</span>
+                          {use_case}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))}
@@ -105,20 +111,44 @@ export default function SolutionsPage() {
           </div>
         </section>
 
+        {/* Integration Section */}
+        <section className="bg-gray-50 py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">How edu.cloud Integrates with Your Institution</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="text-4xl mb-4">📥</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Submit Data</h3>
+                <p className="text-gray-600">Upload spreadsheets of student and alumni names</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl mb-4">🔍</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Comprehensive Research</h3>
+                <p className="text-gray-600">We conduct in-depth online research on each individual</p>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl mb-4">📊</div>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Actionable Insights</h3>
+                <p className="text-gray-600">Receive aggregated impact metrics and detailed reports</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="bg-blue-600 text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready to Demonstrate Your Impact?</h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Let us help your institution tell the story of your alumni\'s success and your transformative impact.
+            <h2 className="text-3xl font-bold mb-4">Ready to demonstrate your institution's impact?</h2>
+            <p className="text-lg text-blue-100 mb-8">
+              Let us show you how alumni impact data can transform your strategic initiatives.
             </p>
             <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Schedule a Demo
+              Request a Consultation
             </button>
           </div>
         </section>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

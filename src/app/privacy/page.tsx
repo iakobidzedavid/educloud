@@ -1,97 +1,97 @@
-'use client';
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const Privacy = () => {
+export default function PrivacyPage() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-white">
-        <div className="max-w-4xl mx-auto px-4 md:px-8 py-16">
-          <h1 className="text-4xl font-bold text-slate-900 mb-8">Privacy Policy</h1>
+      <main className="min-h-screen bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h1 className="text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
           
-          <div className="prose prose-slate max-w-none space-y-8">
+          <div className="prose prose-lg max-w-none space-y-6 text-gray-600">
             <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Introduction</h2>
-              <p className="text-slate-700 leading-relaxed">
-                edu.cloud ("we," "us," "our," or "Company") respects the privacy of our users ("user" or "you"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Introduction</h2>
+              <p>
+                edu.cloud ("we," "us," "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Information We Collect</h2>
-              <p className="text-slate-700 leading-relaxed mb-4">
-                We collect information you voluntarily provide to us, such as when you:
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Information We Collect</h2>
+              <p>
+                We collect information you provide directly to us, such as when you create an account, submit a research request, or contact our support team. This may include your name, email address, institution name, and student/alumni data you submit for analysis.
               </p>
-              <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
-                <li>Create an account or register for our services</li>
-                <li>Upload alumni or student data for research</li>
-                <li>Contact us with inquiries or feedback</li>
-                <li>Request a demo or consultation</li>
+              <p>
+                We automatically collect certain information about your device when you access our website, including IP address, browser type, operating system, and pages visited.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">How We Use Your Information</h2>
+              <p>
+                We use the information we collect to:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Provide, maintain, and improve our alumni impact research services</li>
+                <li>Process and analyze student/alumni data you submit</li>
+                <li>Send you service-related announcements and updates</li>
+                <li>Respond to your inquiries and support requests</li>
+                <li>Analyze usage patterns to enhance user experience</li>
+                <li>Comply with legal obligations</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">How We Use Your Information</h2>
-              <p className="text-slate-700 leading-relaxed mb-4">
-                edu.cloud uses the information we collect to:
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Data Security</h2>
+              <p>
+                We implement comprehensive security measures to protect your information, including encryption, secure servers, and restricted access controls. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.
               </p>
-              <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
-                <li>Conduct alumni and student impact research</li>
-                <li>Provide and improve our services</li>
-                <li>Communicate with you about our services</li>
-                <li>Ensure legal and regulatory compliance</li>
-                <li>Protect against fraudulent or unauthorized activity</li>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Alumni Data Protection</h2>
+              <p>
+                When you submit student/alumni data to edu.cloud, we:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Only use the data for the research services you request</li>
+                <li>Maintain strict confidentiality of all personal information</li>
+                <li>Do not share individual records with third parties without consent</li>
+                <li>Provide only aggregated, anonymized results in reports</li>
+                <li>Comply with FERPA and other applicable privacy regulations</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Data Security</h2>
-              <p className="text-slate-700 leading-relaxed">
-                We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure.
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Your Rights</h2>
+              <p>
+                You have the right to access, correct, or delete your personal information. To exercise these rights or if you have questions about our privacy practices, please contact us at privacy@edu.cloud.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Third-Party Services</h2>
-              <p className="text-slate-700 leading-relaxed">
-                Our services may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. Please review their privacy policies before providing any personal information.
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Changes to This Policy</h2>
+              <p>
+                We may update this Privacy Policy from time to time. We will notify you of significant changes by email or by posting a notice on our website.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Your Rights</h2>
-              <p className="text-slate-700 leading-relaxed mb-4">
-                Depending on your location, you may have the right to:
+              <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Contact Us</h2>
+              <p>
+                If you have questions about this Privacy Policy or our privacy practices, please contact us at:
               </p>
-              <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
-                <li>Access your personal information</li>
-                <li>Correct inaccurate data</li>
-                <li>Request deletion of your data</li>
-                <li>Opt-out of marketing communications</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Changes to This Privacy Policy</h2>
-              <p className="text-slate-700 leading-relaxed">
-                We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this policy periodically.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-slate-900 mb-4">Contact Us</h2>
-              <p className="text-slate-700 leading-relaxed">
-                If you have questions about this Privacy Policy or our privacy practices, please contact us at privacy@edu.cloud or visit our Contact page.
+              <p>
+                <strong>edu.cloud Privacy Team</strong><br />
+                Email: privacy@edu.cloud<br />
+                Website: www.edu.cloud
               </p>
             </section>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   );
-};
-
-export default Privacy;
+}
