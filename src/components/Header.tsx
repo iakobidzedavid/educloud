@@ -7,42 +7,53 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
+    <header className="bg-white shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="text-2xl font-bold text-blue-600">edu.cloud</div>
-          <span className="text-xs text-gray-600 font-semibold hidden sm:inline">IMPACT RESEARCH</span>
+        <Link href="/" className="text-2xl font-bold text-blue-600">
+          edu.cloud
         </Link>
-        
-        <button 
+        <div className="hidden md:flex space-x-8">
+          <Link href="/" className="text-gray-700 hover:text-blue-600 transition">
+            Home
+          </Link>
+          <Link href="/solutions" className="text-gray-700 hover:text-blue-600 transition">
+            Solutions
+          </Link>
+          <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
+            About
+          </Link>
+          <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition">
+            Contact
+          </Link>
+        </div>
+        <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-gray-600 hover:text-blue-600"
+          className="md:hidden text-gray-700 hover:text-blue-600"
+          aria-label="Toggle menu"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-
-        <div className={`hidden md:flex gap-8 items-center`}>
-          <Link href="/features" className="text-gray-700 hover:text-blue-600 font-medium">Features</Link>
-          <Link href="/how-it-works" className="text-gray-700 hover:text-blue-600 font-medium">How It Works</Link>
-          <Link href="/case-studies" className="text-gray-700 hover:text-blue-600 font-medium">Case Studies</Link>
-          <Link href="/contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-medium">
-            Get Started
-          </Link>
-        </div>
+        {isOpen && (
+          <div className="absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
+            <div className="flex flex-col space-y-4 p-4">
+              <Link href="/" className="text-gray-700 hover:text-blue-600">
+                Home
+              </Link>
+              <Link href="/solutions" className="text-gray-700 hover:text-blue-600">
+                Solutions
+              </Link>
+              <Link href="/about" className="text-gray-700 hover:text-blue-600">
+                About
+              </Link>
+              <Link href="/contact" className="text-gray-700 hover:text-blue-600">
+                Contact
+              </Link>
+            </div>
+          </div>
+        )}
       </nav>
-
-      {isOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200 px-4 py-4 space-y-4">
-          <Link href="/features" className="block text-gray-700 hover:text-blue-600 font-medium">Features</Link>
-          <Link href="/how-it-works" className="block text-gray-700 hover:text-blue-600 font-medium">How It Works</Link>
-          <Link href="/case-studies" className="block text-gray-700 hover:text-blue-600 font-medium">Case Studies</Link>
-          <Link href="/contact" className="block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-medium text-center">
-            Get Started
-          </Link>
-        </div>
-      )}
     </header>
   );
 }

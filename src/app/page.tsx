@@ -1,19 +1,21 @@
 'use client';
 
+import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
-import HowItWorks from '@/components/HowItWorks';
-import CaseStudies from '@/components/CaseStudies';
 import CTA from '@/components/CTA';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="w-full">
-      <Hero />
-      <Features />
-      <HowItWorks />
-      <CaseStudies />
-      <CTA />
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-1">
+        <Hero />
+        <Features />
+        <CTA />
+      </main>
+      <Footer />
     </div>
   );
 }
