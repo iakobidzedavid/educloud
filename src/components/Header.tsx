@@ -19,16 +19,19 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-8">
-            <Link href="#features" className="text-gray-600 hover:text-gray-900 transition">
-              Features
+            <Link href="/platform" className="text-gray-600 hover:text-gray-900 transition">
+              Platform
             </Link>
-            <Link href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition">
-              How It Works
+            <Link href="/solutions" className="text-gray-600 hover:text-gray-900 transition">
+              Solutions
             </Link>
-            <Link href="#impact" className="text-gray-600 hover:text-gray-900 transition">
-              Impact
+            <Link href="/resources" className="text-gray-600 hover:text-gray-900 transition">
+              Resources
             </Link>
-            <Link href="#contact" className="text-gray-600 hover:text-gray-900 transition">
+            <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">
+              About
+            </Link>
+            <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition">
               Contact
             </Link>
           </nav>
@@ -52,16 +55,19 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isOpen && (
           <nav className="md:hidden pb-4 flex flex-col gap-4">
-            <Link href="#features" className="text-gray-600 hover:text-gray-900">
-              Features
+            <Link href="/platform" className="text-gray-600 hover:text-gray-900">
+              Platform
             </Link>
-            <Link href="#how-it-works" className="text-gray-600 hover:text-gray-900">
-              How It Works
+            <Link href="/solutions" className="text-gray-600 hover:text-gray-900">
+              Solutions
             </Link>
-            <Link href="#impact" className="text-gray-600 hover:text-gray-900">
-              Impact
+            <Link href="/resources" className="text-gray-600 hover:text-gray-900">
+              Resources
             </Link>
-            <Link href="#contact" className="text-gray-600 hover:text-gray-900">
+            <Link href="/about" className="text-gray-600 hover:text-gray-900">
+              About
+            </Link>
+            <Link href="/contact" className="text-gray-600 hover:text-gray-900">
               Contact
             </Link>
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 w-full">
