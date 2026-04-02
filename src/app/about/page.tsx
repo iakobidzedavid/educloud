@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-yellow-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
             About edu.cloud
@@ -47,21 +47,21 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Institutions Choose edu.cloud</h2>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <span className="text-blue-600 font-bold mr-4 text-xl">✓</span>
+                  <span className="text-yellow-500 font-bold mr-4 text-xl">check</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Comprehensive Research</h3>
                     <p className="text-gray-600">We go beyond LinkedIn to identify all significant alumni achievements.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 font-bold mr-4 text-xl">✓</span>
+                  <span className="text-yellow-500 font-bold mr-4 text-xl">check</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Data-Driven Storytelling</h3>
                     <p className="text-gray-600">Turn metrics into narratives that resonate with donors and stakeholders.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 font-bold mr-4 text-xl">✓</span>
+                  <span className="text-yellow-500 font-bold mr-4 text-xl">check</span>
                   <div>
                     <h3 className="font-semibold text-gray-900">Scalable Solutions</h3>
                     <p className="text-gray-600">Handle portfolios from hundreds to millions of alumni efficiently.</p>

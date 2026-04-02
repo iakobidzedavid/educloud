@@ -44,13 +44,13 @@ export default function SolutionsPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-50 to-indigo-50">
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-yellow-50 to-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
             Solutions for Every Institutional Need
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-2xl mx-auto">
-            Whether you\'re fundraising, planning strategy, or communicating impact, edu.cloud delivers the insights you need.
+            Whether you're fundraising, planning strategy, or communicating impact, edu.cloud delivers the insights you need.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@ export default function SolutionsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             {solutions.map((solution, index) => (
-              <div key={index} className="p-8 bg-gray-50 rounded-xl">
+              <div key={index} className="p-8 bg-yellow-50 rounded-xl border border-yellow-200">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   {solution.title}
                 </h3>
@@ -69,7 +69,7 @@ export default function SolutionsPage() {
                   <ul className="space-y-2">
                     {solution.useCases.map((useCase, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="text-blue-600 mr-3">✓</span>
+                        <span className="text-yellow-500 mr-3">check</span>
                         <span className="text-gray-600">{useCase}</span>
                       </li>
                     ))}

@@ -1,32 +1,32 @@
 export default function Features() {
   const features = [
     {
-      icon: '🚀',
+      icon: '9',
       title: 'Companies Started',
       description: 'Track how many alumni have founded successful companies and ventures from your institution.',
     },
     {
-      icon: '📈',
+      icon: '8',
       title: 'Career Progression',
       description: 'Measure promotions, leadership positions, and career advancement across your alumni network.',
     },
     {
-      icon: '👥',
+      icon: '7',
       title: 'Jobs Created',
       description: 'Aggregate the total jobs created by alumni entrepreneurs and leaders in their organizations.',
     },
     {
-      icon: '💰',
+      icon: '6',
       title: 'Capital Raised',
       description: 'Quantify venture capital, funding rounds, and investment success among alumni-led ventures.',
     },
     {
-      icon: '🎯',
+      icon: '5',
       title: 'Exit Events',
       description: 'Document IPOs, acquisitions, and mergers involving your alumni as founders or key executives.',
     },
     {
-      icon: '📊',
+      icon: '4',
       title: 'Aggregate Analytics',
       description: 'Generate comprehensive reports showing your institution\'s collective impact on society and industry.',
     },
@@ -48,7 +48,7 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg hover:bg-blue-50 transition duration-300 border border-gray-100"
+              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg hover:bg-yellow-50 transition duration-300 border border-gray-100"
             >
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>

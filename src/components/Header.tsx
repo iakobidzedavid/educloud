@@ -11,8 +11,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">e</span>
+            <div className="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
+              <span className="text-gray-900 font-bold text-lg">e</span>
             </div>
             <span className="font-bold text-xl text-gray-900">edu.cloud</span>
           </Link>
@@ -37,7 +37,7 @@ export default function Header() {
           </nav>
 
           {/* Desktop CTA */}
-          <button className="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition font-medium">
+          <button className="hidden md:block bg-yellow-500 text-gray-900 px-6 py-2 rounded-lg hover:bg-yellow-600 transition font-medium">
             Get Started
           </button>
 
@@ -70,7 +70,7 @@ export default function Header() {
             <Link href="/contact" className="text-gray-600 hover:text-gray-900">
               Contact
             </Link>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 w-full">
+            <button className="bg-yellow-500 text-gray-900 px-6 py-2 rounded-lg hover:bg-yellow-600 w-full">
               Get Started
             </button>
           </nav>

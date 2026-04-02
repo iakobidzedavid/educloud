@@ -23,23 +23,23 @@ export default function Metrics() {
   ];
 
   return (
-    <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-600 to-blue-700">
+    <section className="py-20 sm:py-32 bg-gradient-to-br from-yellow-400 to-amber-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Proven Impact at Scale
           </h2>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-800 max-w-2xl mx-auto">
             edu.cloud helps leading institutions showcase measurable alumni success and institutional impact.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {metrics.map((metric, index) => (
-            <div key={index} className="text-center text-white">
+            <div key={index} className="text-center text-gray-900">
               <div className="text-5xl font-bold mb-2">{metric.value}</div>
               <div className="text-lg font-semibold mb-2">{metric.label}</div>
-              <p className="text-blue-100 text-sm">{metric.description}</p>
+              <p className="text-gray-800 text-sm">{metric.description}</p>
             </div>
           ))}
         </div>

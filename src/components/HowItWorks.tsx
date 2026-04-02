@@ -39,11 +39,11 @@ export default function HowItWorks() {
             <div key={index} className="relative">
               {/* Connector Line */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-16 left-full w-full h-0.5 bg-blue-200 -z-10"></div>
+                <div className="hidden lg:block absolute top-16 left-full w-full h-0.5 bg-yellow-300 -z-10"></div>
               )}
 
               <div className="bg-white rounded-xl p-6 border border-gray-200 h-full">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg mb-4">
+                <div className="w-12 h-12 bg-yellow-500 text-gray-900 rounded-full flex items-center justify-center font-bold text-lg mb-4">
                   {step.number}
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
