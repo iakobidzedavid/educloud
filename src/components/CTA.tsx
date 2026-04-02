@@ -1,28 +1,32 @@
-const CTA = () => {
+import Link from 'next/link';
+
+export default function CTA() {
   return (
-    <section className="py-20 sm:py-32 bg-gradient-to-r from-blue-600 to-indigo-600">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-          Ready to Build Something Amazing?
-        </h2>
-        <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-          Join thousands of developers building the next generation of web applications. 
-          Get started free today—no credit card required.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-4 bg-white text-blue-600 text-lg font-bold rounded-lg hover:bg-blue-50 transition transform hover:scale-105">
-            Start Building Now
-          </button>
-          <button className="px-8 py-4 border-2 border-white text-white text-lg font-bold rounded-lg hover:bg-white hover:bg-opacity-10 transition">
-            Schedule Demo
-          </button>
+    <section className="py-20 sm:py-32 bg-white">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 sm:p-12 text-center border border-blue-200">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Ready to Demonstrate Your Impact?
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Join hundreds of leading institutions leveraging edu.cloud to showcase their alumni's achievements and institutional impact.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/contact"
+              className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition inline-block"
+            >
+              Schedule a Demo
+            </Link>
+            <Link
+              href="/resources"
+              className="px-8 py-4 bg-white text-blue-600 border-2 border-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition inline-block"
+            >
+              View Case Studies
+            </Link>
+          </div>
         </div>
-        <p className="text-blue-100 mt-8 text-sm">
-          No credit card required • 14-day free trial • Cancel anytime
-        </p>
       </div>
     </section>
   );
-};
-
-export default CTA;
+}
