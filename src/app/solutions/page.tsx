@@ -2,125 +2,136 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
 
-const solutions = [
-  {
-    title: 'Institutional Effectiveness',
-    description: 'Demonstrate how your institution prepares students for successful careers and leadership roles.',
-    use_cases: [
-      'Strategic planning',
-      'Accreditation documentation',
-      'Board presentations',
-      'Institutional effectiveness reports'
-    ]
-  },
-  {
-    title: 'Development & Fundraising',
-    description: 'Showcase alumni success stories and institutional impact to donor prospects and major gift donors.',
-    use_cases: [
-      'Major gift campaigns',
-      'Capital campaigns',
-      'Donor recognition programs',
-      'Fundraising event materials'
-    ]
-  },
-  {
-    title: 'Marketing & Communications',
-    description: 'Showcase your institution\'s impact with compelling statistics and success stories of your alumni.',
-    use_cases: [
-      'Recruitment materials',
-      'Annual reports',
-      'Social media campaigns',
-      'Website content'
-    ]
-  },
-  {
-    title: 'Strategic Planning',
-    description: 'Use data-driven insights about alumni outcomes to inform curriculum development and institutional strategy.',
-    use_cases: [
-      'Curriculum assessment',
-      'Program evaluation',
-      'Competitive positioning',
-      'Strategic initiatives'
-    ]
-  },
-  {
-    title: 'Alumni Engagement',
-    description: 'Identify high-impact alumni for mentoring, advisory boards, and engagement initiatives.',
-    use_cases: [
-      'Alumni network development',
-      'Mentorship programs',
-      'Advisory board recruitment',
-      'Industry partnerships'
-    ]
-  },
-  {
-    title: 'Reputation Management',
-    description: 'Build a compelling narrative around your institution\'s role in shaping successful professionals.',
-    use_cases: [
-      'Media relations',
-      'Rankings and reputation',
-      'PR campaigns',
-      'Thought leadership'
-    ]
-  }
-];
+const Solutions = () => {
+  const solutions = [
+    {
+      title: 'Fundraising & Donor Relations',
+      description: 'Build a compelling case for support with concrete evidence of impact.',
+      use_cases: [
+        'Major gift proposals',
+        'Campaign messaging',
+        'Donor stewardship reports',
+        'Impact demonstrations',
+      ],
+      icon: '💰',
+    },
+    {
+      title: 'Enrollment & Recruitment',
+      description: 'Show prospective students and families the quantified career outcomes and opportunities.',
+      use_cases: [
+        'Recruitment materials',
+        'Campus visit presentations',
+        'Program comparisons',
+        'Career outcome claims',
+      ],
+      icon: '🎓',
+    },
+    {
+      title: 'Marketing & Communications',
+      description: 'Showcase your institution\'s impact with compelling statistics and success stories of your alumni.',
+      use_cases: [
+        'Recruitment materials',
+        'Annual reports',
+        'Website content',
+        'Social media campaigns',
+      ],
+      icon: '📢',
+    },
+    {
+      title: 'Institutional Planning & Strategy',
+      description: 'Use data-driven insights to inform program development and strategic decisions.',
+      use_cases: [
+        'Program evaluation',
+        'Resource allocation',
+        'Strategic priorities',
+        'Competitive positioning',
+      ],
+      icon: '📊',
+    },
+    {
+      title: 'Accreditation & Assessment',
+      description: 'Meet accreditor expectations with comprehensive outcome and impact documentation.',
+      use_cases: [
+        'Self-study reports',
+        'Outcome assessment',
+        'Impact evidence',
+        'Learning outcome documentation',
+      ],
+      icon: '✅',
+    },
+    {
+      title: 'Alumni Engagement',
+      description: 'Deepen connections by celebrating alumni success and demonstrating how the institution contributed to their achievements.',
+      use_cases: [
+        'Alumni communications',
+        'Reunion planning',
+        'Success story curation',
+        'Engagement campaigns',
+      ],
+      icon: '🤝',
+    },
+  ];
 
-export default function Solutions() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
       <Header />
-      
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl font-bold mb-4">Solutions for Every Department</h1>
-          <p className="text-xl text-blue-100">edu.cloud provides customized research and insights for institutional advancement, development, marketing, and strategic planning.</p>
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        {/* Hero Section */}
+        <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-16 md:py-24">
+          <div className="max-w-6xl mx-auto px-4 md:px-8">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Solutions for Every Department</h1>
+            <p className="text-xl text-green-100 max-w-2xl">
+              Discover how edu.cloud\'s alumni impact research serves your institution\'s most critical strategic initiatives.
+            </p>
+          </div>
         </div>
-      </section>
 
-      {/* Solutions Grid */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Solutions Grid */}
+        <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {solutions.map((solution, index) => (
-              <div key={index} className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm hover:shadow-lg transition">
-                <h3 className="text-2xl font-bold mb-3 text-gray-900">{solution.title}</h3>
-                <p className="text-gray-700 mb-6">{solution.description}</p>
-                <div className="mb-6">
-                  <p className="text-sm font-semibold text-gray-500 mb-3 uppercase">Use Cases</p>
-                  <ul className="space-y-2">
-                    {solution.use_cases.map((use_case, i) => (
-                      <li key={i} className="flex items-start gap-2 text-gray-700">
-                        <span className="text-blue-600 font-bold mt-1">•</span>
-                        <span>{use_case}</span>
-                      </li>
-                    ))}
-                  </ul>
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow border border-slate-200 overflow-hidden"
+              >
+                <div className="bg-green-50 px-6 py-4 text-4xl">{solution.icon}</div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">{solution.title}</h3>
+                  <p className="text-slate-600 mb-4 text-sm leading-relaxed">{solution.description}</p>
+                  <div className="space-y-2">
+                    <p className="text-xs font-semibold text-green-600 uppercase tracking-wide">Use Cases:</p>
+                    <ul className="space-y-1">
+                      {solution.use_cases.map((useCase, idx) => (
+                        <li key={idx} className="flex items-start text-sm text-slate-700">
+                          <span className="text-green-500 mr-2 font-bold">•</span>
+                          <span>{useCase}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-                <Link href="/contact" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold">
-                  Learn More <ArrowRight size={16} />
-                </Link>
               </div>
             ))}
           </div>
         </div>
-      </section>
 
-      {/* CTA Section */}
-      <section className="bg-blue-50 py-16 px-4 border-t border-gray-200">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4">Ready to Demonstrate Your Impact?</h2>
-          <p className="text-lg text-gray-700 mb-8">Let us help you tell the story of your institution's transformative effect on alumni and society.</p>
-          <Link href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition inline-block">
-            Schedule Your Demo
-          </Link>
+        {/* CTA Section */}
+        <div className="bg-green-50 py-16 mt-8">
+          <div className="max-w-3xl mx-auto px-4 md:px-8 text-center">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Ready to Demonstrate Your Impact?</h2>
+            <p className="text-slate-700 mb-8 text-lg">
+              Let us show you how comprehensive alumni research can transform your institutional narrative.
+            </p>
+            <button className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+              Schedule a Demo
+            </button>
+          </div>
         </div>
-      </section>
-
+      </div>
       <Footer />
-    </div>
+    </>
   );
-}
+};
+
+export default Solutions;

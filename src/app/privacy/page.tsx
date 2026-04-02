@@ -1,188 +1,97 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-export default function Privacy() {
+const Privacy = () => {
   return (
-    <main className="min-h-screen bg-white flex flex-col">
+    <>
       <Header />
-      <div className="flex-grow">
-        <section className="py-20 sm:py-32">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
-              Privacy Policy
-            </h1>
-            <div className="prose prose-lg text-gray-600 space-y-6">
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Data Protection</h2>
-                <p>
-                  edu.cloud is committed to protecting the privacy and security of all alumni data submitted by higher education institutions. We implement industry-leading security measures including encryption, secure data storage, and strict access controls.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">How We Use Data</h2>
-                <p>
-                  Alumni names and information provided are used exclusively for research purposes to identify professional achievements, career milestones, and impact metrics. Data is aggregated at the institutional level and never shared with third parties without explicit consent.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Compliance</h2>
-                <p>
-                  We comply with all applicable data protection regulations including FERPA, GDPR, and other relevant privacy laws. Our practices are regularly audited to ensure the highest standards of data security and privacy protection.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact</h2>
-                <p>
-                  For questions about our privacy practices, please contact us at privacy@edu.cloud
-                </p>
-              </section>
-            </div>
+      <div className="min-h-screen bg-white">
+        <div className="max-w-4xl mx-auto px-4 md:px-8 py-16">
+          <h1 className="text-4xl font-bold text-slate-900 mb-8">Privacy Policy</h1>
+          
+          <div className="prose prose-slate max-w-none space-y-8">
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Introduction</h2>
+              <p className="text-slate-700 leading-relaxed">
+                edu.cloud ("we," "us," "our," or "Company") respects the privacy of our users ("user" or "you"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Information We Collect</h2>
+              <p className="text-slate-700 leading-relaxed mb-4">
+                We collect information you voluntarily provide to us, such as when you:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+                <li>Create an account or register for our services</li>
+                <li>Upload alumni or student data for research</li>
+                <li>Contact us with inquiries or feedback</li>
+                <li>Request a demo or consultation</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">How We Use Your Information</h2>
+              <p className="text-slate-700 leading-relaxed mb-4">
+                edu.cloud uses the information we collect to:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+                <li>Conduct alumni and student impact research</li>
+                <li>Provide and improve our services</li>
+                <li>Communicate with you about our services</li>
+                <li>Ensure legal and regulatory compliance</li>
+                <li>Protect against fraudulent or unauthorized activity</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Data Security</h2>
+              <p className="text-slate-700 leading-relaxed">
+                We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Third-Party Services</h2>
+              <p className="text-slate-700 leading-relaxed">
+                Our services may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. Please review their privacy policies before providing any personal information.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Your Rights</h2>
+              <p className="text-slate-700 leading-relaxed mb-4">
+                Depending on your location, you may have the right to:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+                <li>Access your personal information</li>
+                <li>Correct inaccurate data</li>
+                <li>Request deletion of your data</li>
+                <li>Opt-out of marketing communications</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Changes to This Privacy Policy</h2>
+              <p className="text-slate-700 leading-relaxed">
+                We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this policy periodically.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Contact Us</h2>
+              <p className="text-slate-700 leading-relaxed">
+                If you have questions about this Privacy Policy or our privacy practices, please contact us at privacy@edu.cloud or visit our Contact page.
+              </p>
+            </section>
           </div>
-        </section>
+        </div>
       </div>
       <Footer />
-    </main>
+    </>
   );
-}
-"
-    },
-    {
-      "file": "src/app/terms/page.tsx",
-      "data": "import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-
-export default function Terms() {
-  return (
-    <main className="min-h-screen bg-white flex flex-col">
-      <Header />
-      <div className="flex-grow">
-        <section className="py-20 sm:py-32">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
-              Terms of Service
-            </h1>
-            <div className="prose prose-lg text-gray-600 space-y-6">
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Service Overview</h2>
-                <p>
-                  edu.cloud provides research services to higher education institutions. Our platform enables institutions to submit alumni data and receive comprehensive reports on the professional achievements and impact of their graduates.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Acceptable Use</h2>
-                <p>
-                  Institutions agree to use edu.cloud services only for legitimate educational and research purposes. Users must have appropriate authorization to submit alumni data and must comply with all applicable privacy laws and institutional policies.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Data Ownership</h2>
-                <p>
-                  While institutions retain ownership of their submitted data, they grant edu.cloud a limited license to conduct research and analysis. All aggregated findings remain the property of the submitting institution.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Limitation of Liability</h2>
-                <p>
-                  edu.cloud provides research services "as is" without warranties. We are not liable for incomplete findings or inaccuracies that may result from publicly available information limitations or individual privacy choices.
-                </p>
-              </section>
-              <section>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact</h2>
-                <p>
-                  For questions about our terms, please contact us at legal@edu.cloud
-                </p>
-              </section>
-            </div>
-          </div>
-        </section>
-      </div>
-      <Footer />
-    </main>
-  );
-}
-"
-    },
-    {
-      "file": "next.config.ts",
-      "data": "import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  reactStrictMode: true,
 };
 
-export default nextConfig;
-"
-    },
-    {
-      "file": "tsconfig.json",
-      "data": "{
-  "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
-}
-"
-    },
-    {
-      "file": "tsconfig.node.json",
-      "data": "{
-  "compilerOptions": {
-    "composite": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["vite.config.ts"]
-}
-"
-    },
-    {
-      "file": "package.json",
-      "data": "{
-  "name": "edu-cloud",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "^15.1.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.6.0",
-    "@types/node": "^20.14.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.40",
-    "tailwindcss": "^3.4.3",
-    "@next/eslint-config-next": "^15.1.0",
-    "eslint": "^8.56.0"
-  }
-}
+export default Privacy;

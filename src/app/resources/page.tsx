@@ -1,109 +1,108 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-export default function ResourcesPage() {
+const Resources = () => {
   const resources = [
     {
       type: 'Case Study',
-      title: 'How a Top Research University Increased Fundraising by 40%',
-      description: 'Learn how comprehensive alumni impact data strengthened capital campaign storytelling and donor engagement.',
+      title: 'How a Top Research University Doubled Alumni Engagement',
+      description: 'Learn how one institution used comprehensive alumni impact research to increase donor engagement by 45% in their first year.',
       icon: '📊',
-    },
-    {
-      type: 'Whitepaper',
-      title: 'Measuring Alumni Economic Impact: A Framework for Higher Ed',
-      description: 'A detailed guide to calculating and communicating the economic impact of your institution through alumni outcomes.',
-      icon: '📄',
     },
     {
       type: 'Webinar',
       title: 'Beyond Rankings: Alternative Metrics for Demonstrating Institutional Value',
-      description: 'Discover metrics beyond traditional rankings that resonate with stakeholders and showcase your institution's unique impact.',
+      description: 'Discover metrics beyond traditional rankings that resonate with stakeholders and showcase your institution\'s unique impact.',
       icon: '🎥',
     },
     {
-      type: 'Blog',
-      title: 'The Hidden Value of Alumni Data: What Your Institution Can Learn',
-      description: 'Explore how alumni professional journeys reveal insights about curriculum effectiveness and program ROI.',
-      icon: '✍️',
+      type: 'Guide',
+      title: 'The Complete Guide to Alumni Impact Research',
+      description: 'A comprehensive resource covering methodology, best practices, and how to present findings to leadership and donors.',
+      icon: '📖',
     },
     {
-      type: 'Report',
-      title: 'Alumni Entrepreneurship Trends: 2024 Analysis',
-      description: 'Analysis of company formation, funding, and exit events among recent graduates across institutions.',
+      type: 'Data Sheet',
+      title: 'Impact Metrics That Matter: What Stakeholders Really Want to See',
+      description: 'Understand which metrics resonate most with different stakeholder groups—from board members to prospective students.',
       icon: '📈',
     },
     {
-      type: 'Template',
-      title: 'Impact Narrative Template for Fundraising',
-      description: 'Ready-to-use template for crafting compelling impact stories with alumni achievement data.',
-      icon: '📋',
+      type: 'Case Study',
+      title: 'From Data to Strategy: Using Alumni Impact for Strategic Planning',
+      description: 'See how institutions leverage alumni impact data to inform enrollment strategy, program development, and institutional positioning.',
+      icon: '🎯',
+    },
+    {
+      type: 'Article',
+      title: 'The ROI of Higher Education: Making the Case with Evidence',
+      description: 'Explore how to quantify and communicate the return on investment that your institution delivers to students and society.',
+      icon: '💡',
     },
   ];
 
-  return (
-    <main className="min-h-screen bg-white">
-      <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-blue-50 to-indigo-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
-            Resources & Insights
-          </h1>
-          <p className="text-xl text-gray-600 text-center max-w-2xl mx-auto">
-            Learn best practices for measuring, analyzing, and communicating alumni impact.
-          </p>
-        </div>
-      </section>
+  const resourceTypes = ['All', 'Case Study', 'Webinar', 'Guide', 'Data Sheet', 'Article'];
 
-      <section className="py-20 sm:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  return (
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        {/* Hero Section */}
+        <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 md:py-24">
+          <div className="max-w-6xl mx-auto px-4 md:px-8">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Resources & Insights</h1>
+            <p className="text-xl text-blue-100 max-w-2xl">
+              Explore case studies, guides, and best practices to maximize the impact of your alumni research and institutional storytelling.
+            </p>
+          </div>
+        </div>
+
+        {/* Content Section */}
+        <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
+          {/* Filter Buttons */}
+          <div className="mb-12 flex flex-wrap gap-3">
+            {resourceTypes.map((type) => (
+              <button
+                key={type}
+                className={`px-6 py-2 rounded-full font-medium transition-colors ${
+                  type === 'All'
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-slate-200 text-slate-800 hover:bg-slate-300'
+                }`}
+              >
+                {type}
+              </button>
+            ))}
+          </div>
+
+          {/* Resources Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {resources.map((resource, index) => (
               <div
                 key={index}
-                className="p-6 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-lg transition cursor-pointer"
+                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden border border-slate-200"
               >
-                <div className="text-3xl mb-4">{resource.icon}</div>
-                <div className="text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wide">
-                  {resource.type}
+                <div className="bg-slate-50 px-6 py-4 text-2xl">{resource.icon}</div>
+                <div className="p-6">
+                  <div className="text-sm font-semibold text-blue-600 mb-2 uppercase tracking-wide">
+                    {resource.type}
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900 mb-3">{resource.title}</h3>
+                  <p className="text-slate-600 mb-4 text-sm leading-relaxed">{resource.description}</p>
+                  <button className="text-blue-600 font-semibold hover:text-blue-700 text-sm">
+                    Learn More →
+                  </button>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  {resource.title}
-                </h3>
-                <p className="text-gray-600 text-sm">{resource.description}</p>
-                <button className="mt-4 text-blue-600 font-semibold hover:text-blue-700 transition">
-                  Access →
-                </button>
               </div>
             ))}
           </div>
         </div>
-      </section>
-
-      <section className="py-20 sm:py-32 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Subscribe to our newsletter for insights on alumni impact, higher ed trends, and research methodologies.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"
-              required
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </section>
-
+      </div>
       <Footer />
-    </main>
+    </>
   );
-}
+};
+
+export default Resources;
