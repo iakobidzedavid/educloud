@@ -23,7 +23,7 @@ export default function SolutionsPage() {
     },
     {
       title: 'Marketing & Communications',
-      description: 'Showcase your institution's impact with compelling statistics and success stories of your alumni.',
+      description: 'Showcase your institution impact with compelling statistics and success stories of your alumni.',
       use_cases: [
         'Recruitment materials',
         'Annual reports',
@@ -32,7 +32,7 @@ export default function SolutionsPage() {
     },
     {
       title: 'Economic Impact Analysis',
-      description: 'Demonstrate your institution's contribution to regional and national economic development.',
+      description: 'Demonstrate your institution contribution to regional and national economic development.',
       use_cases: [
         'Government grant applications',
         'Economic impact reports',
@@ -50,7 +50,7 @@ export default function SolutionsPage() {
             Solutions for Every Institutional Need
           </h1>
           <p className="text-xl text-gray-600 text-center max-w-2xl mx-auto">
-            Whether you're fundraising, planning strategy, or communicating impact, edu.cloud delivers the insights you need.
+            Whether you are fundraising, planning strategy, or communicating impact, edu.cloud delivers the insights you need.
           </p>
         </div>
       </section>

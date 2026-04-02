@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Measure Your Institution's Real Impact
+              Measure Your Institution Real Impact
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
               Transform alumni data into powerful impact stories. Demonstrate how your education and research has shaped careers, created jobs, and driven innovation across industries.

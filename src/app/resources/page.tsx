@@ -18,7 +18,7 @@ export default function ResourcesPage() {
     {
       type: 'Webinar',
       title: 'Beyond Rankings: Alternative Metrics for Demonstrating Institutional Value',
-      description: 'Discover metrics beyond traditional rankings that resonate with stakeholders and showcase your institution's unique impact.',
+      description: 'Discover metrics beyond traditional rankings that resonate with stakeholders and showcase your institution unique impact.',
       icon: '🎥',
     },
     {

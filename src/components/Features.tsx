@@ -28,7 +28,7 @@ export default function Features() {
     {
       icon: '📊',
       title: 'Aggregate Analytics',
-      description: 'Generate comprehensive reports showing your institution\'s collective impact on society and industry.',
+      description: 'Generate comprehensive reports showing your institution collective impact on society and industry.',
     },
   ];
 

@@ -17,7 +17,7 @@ export default function PlatformPage() {
     },
     {
       title: 'Custom Reporting',
-      description: 'Generate reports tailored to your institution's needs for fundraising, strategic planning, and communications.',
+      description: 'Generate reports tailored to your institution needs for fundraising, strategic planning, and communications.',
     },
     {
       title: 'Data Integration',
