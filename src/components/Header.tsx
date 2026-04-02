@@ -3,25 +3,22 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-export function Header() {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-white border-b border-gray-200 z-50">
+    <header className="fixed w-full bg-white shadow-sm z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">ec</span>
-          </div>
-          <span className="text-xl font-bold text-gray-900">edu.cloud</span>
+        <Link href="/" className="text-2xl font-bold text-blue-600">
+          edu.cloud
         </Link>
-
-        <div className="hidden md:flex items-center space-x-8">
-          <Link href="#features" className="text-gray-700 hover:text-blue-600 transition">
-            Features
+        
+        <div className="hidden md:flex gap-8 items-center">
+          <Link href="/platform" className="text-gray-700 hover:text-blue-600 transition">
+            Platform
           </Link>
-          <Link href="#how-it-works" className="text-gray-700 hover:text-blue-600 transition">
-            How It Works
+          <Link href="/solutions" className="text-gray-700 hover:text-blue-600 transition">
+            Solutions
           </Link>
           <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
             About
@@ -31,32 +28,29 @@ export function Header() {
           </button>
         </div>
 
-        <button
+        <button 
+          className="md:hidden"
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden flex flex-col space-y-1"
         >
-          <div className="w-6 h-0.5 bg-gray-900"></div>
-          <div className="w-6 h-0.5 bg-gray-900"></div>
-          <div className="w-6 h-0.5 bg-gray-900"></div>
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
         </button>
-      </nav>
 
-      {isOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200 p-4 space-y-3">
-          <Link href="#features" className="block text-gray-700 hover:text-blue-600">
-            Features
-          </Link>
-          <Link href="#how-it-works" className="block text-gray-700 hover:text-blue-600">
-            How It Works
-          </Link>
-          <Link href="/about" className="block text-gray-700 hover:text-blue-600">
-            About
-          </Link>
-          <button className="w-full bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
-            Get Started
-          </button>
-        </div>
-      )}
+        {isOpen && (
+          <div className="absolute top-16 left-0 right-0 bg-white border-t md:hidden flex flex-col">
+            <Link href="/platform" className="px-4 py-3 text-gray-700 hover:bg-gray-50">
+              Platform
+            </Link>
+            <Link href="/solutions" className="px-4 py-3 text-gray-700 hover:bg-gray-50">
+              Solutions
+            </Link>
+            <Link href="/about" className="px-4 py-3 text-gray-700 hover:bg-gray-50">
+              About
+            </Link>
+          </div>
+        )}
+      </nav>
     </header>
   );
 }
