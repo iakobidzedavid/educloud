@@ -72,7 +72,7 @@ export default function ResourcesPage() {
                 </h3>
                 <p className="text-gray-600 text-sm">{resource.description}</p>
                 <button className="mt-4 text-yellow-600 font-semibold hover:text-yellow-700 transition">
-                  Access arrow
+                  Access
                 </button>
               </div>
             ))}

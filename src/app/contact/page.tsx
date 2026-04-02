@@ -117,7 +117,7 @@ export default function Contact() {
 
               {submitted && (
                 <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800 text-center">
-                  check Thank you! We will be in touch soon.
+                  Thank you! We will be in touch soon.
                 </div>
               )}
             </form>
