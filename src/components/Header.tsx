@@ -3,85 +3,65 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-const Header = () => {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-blue-600">
-              BuildHub
-            </Link>
-          </div>
+    <header className="bg-white border-b border-gray-200">
+      <div className="max-w-6xl mx-auto px-4 py-6">
+        <div className="flex justify-between items-center">
+          <Link href="/" className="flex items-center gap-2">
+            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-lg">
+              ec
+            </div>
+            <span className="text-2xl font-bold text-gray-900">edu.cloud</span>
+          </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8 items-center">
-            <Link href="#features" className="text-gray-700 hover:text-blue-600 transition">
-              Features
+          <nav className="hidden md:flex gap-8 items-center">
+            <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              Home
             </Link>
-            <Link href="#pricing" className="text-gray-700 hover:text-blue-600 transition">
-              Pricing
+            <Link href="/solutions" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              Solutions
             </Link>
-            <Link href="#testimonials" className="text-gray-700 hover:text-blue-600 transition">
-              Testimonials
+            <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium transition">
+              About
             </Link>
-            <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-              Get Started
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+              Contact Us
             </button>
-          </div>
+          </nav>
 
-          {/* Mobile menu button */}
+          {/* Mobile Menu Button */}
           <button
+            className="md:hidden"
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+            <svg className="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         </div>
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4 space-y-2">
-            <Link
-              href="#features"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
-            >
-              Features
+          <nav className="md:hidden mt-6 space-y-4 pb-4">
+            <Link href="/" className="block text-gray-700 hover:text-blue-600 font-medium transition">
+              Home
             </Link>
-            <Link
-              href="#pricing"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
-            >
-              Pricing
+            <Link href="/solutions" className="block text-gray-700 hover:text-blue-600 font-medium transition">
+              Solutions
             </Link>
-            <Link
-              href="#testimonials"
-              className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
-            >
-              Testimonials
+            <Link href="/about" className="block text-gray-700 hover:text-blue-600 font-medium transition">
+              About
             </Link>
-            <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-              Get Started
+            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition">
+              Contact Us
             </button>
-          </div>
+          </nav>
         )}
-      </nav>
+      </div>
     </header>
   );
-};
-
-export default Header;
+}
