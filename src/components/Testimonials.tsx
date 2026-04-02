@@ -1,84 +1,57 @@
-const Testimonials = () => {
+export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Product Manager at TechStart',
-      image: '👩‍💼',
-      text: 'BuildHub transformed how we develop. What used to take weeks now takes days. The team collaboration features are game-changing.',
+      quote: 'edu.cloud helped us quantify what we always knew-that our alumni are builders and leaders across industries. The data was transformative for our capital campaign.',
+      author: 'Dr. Sarah Chen',
+      title: 'VP of Institutional Advancement',
+      institution: 'Research University',
     },
     {
-      name: 'Michael Chen',
-      role: 'Full Stack Developer',
-      image: '👨‍💻',
-      text: 'I\'ve tried many platforms, but BuildHub stands out. The performance is incredible, and the documentation is fantastic. Highly recommended!',
+      quote: 'We discovered that our alumni have founded 847 companies and created over 12,000 jobs. These metrics are now central to our strategic positioning.',
+      author: 'Michael Rodriguez',
+      title: 'President',
+      institution: 'Tech-Focused College',
     },
     {
-      name: 'Emma Rodriguez',
-      role: 'Startup Founder',
-      image: '👩‍🏫',
-      text: 'As a founder, I need tools that scale with my business. BuildHub grew with us from day one. Their support team is exceptional.',
-    },
-    {
-      name: 'James Wilson',
-      role: 'CTO at DataCorp',
-      image: '👨‍💼',
-      text: 'The security and reliability are unmatched. Our enterprise needs were met without compromises. Best investment we\'ve made.',
-    },
-    {
-      name: 'Lisa Anderson',
-      role: 'UI/UX Designer',
-      image: '👩‍🎨',
-      text: 'Beautiful, intuitive interface. The customization options let me create exactly what I envisioned. Love the attention to detail.',
-    },
-    {
-      name: 'David Kumar',
-      role: 'DevOps Engineer',
-      image: '👨‍🔧',
-      text: 'Integration with our existing tools was seamless. The API documentation is clear, and deployment is a breeze.',
+      quote: 'The research was thorough and the dashboard makes it easy for our board to understand alumni impact. Highly recommended for any institution.',
+      author: 'Jennifer Liu',
+      title: 'Chief Development Officer',
+      institution: 'Liberal Arts College',
     },
   ];
 
   return (
-    <section id="testimonials" className="py-20 sm:py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Loved by Developers
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+            Trusted by Higher Education Leaders
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Join thousands of satisfied users who have transformed their projects with BuildHub.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            See how institutions are using edu.cloud to demonstrate and communicate their impact.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="bg-gray-50 rounded-xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition duration-300"
-            >
-              <div className="flex items-center gap-4 mb-6">
-                <div className="text-5xl">{testimonial.image}</div>
-                <div>
-                  <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                  <p className="text-sm text-gray-600">{testimonial.role}</p>
-                </div>
-              </div>
-              <div className="flex mb-4 gap-1">
+            <div key={index} className="bg-gray-50 rounded-xl p-8 border border-gray-200 hover:shadow-lg transition">
+              <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-yellow-400 text-lg">
-                    ★
-                  </span>
+                  <span key={i} className="text-yellow-400">★</span>
                 ))}
               </div>
-              <p className="text-gray-700 leading-relaxed italic">
-                "{testimonial.text}"
+              <p className="text-gray-700 mb-6 leading-relaxed italic">
+                "{testimonial.quote}"
               </p>
+              <div className="border-t border-gray-200 pt-4">
+                <p className="font-semibold text-gray-900">{testimonial.author}</p>
+                <p className="text-sm text-gray-600">{testimonial.title}</p>
+                <p className="text-sm text-blue-600 font-medium">{testimonial.institution}</p>
+              </div>
             </div>
           ))}
         </div>
       </div>
     </section>
   );
-};
-
-export default Testimonials;
+}

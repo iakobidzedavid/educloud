@@ -37,9 +37,9 @@ export default function Header() {
           </nav>
 
           {/* Desktop CTA */}
-          <button className="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition font-medium">
+          <Link href="/contact" className="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition font-medium">
             Get Started
-          </button>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button
@@ -70,9 +70,9 @@ export default function Header() {
             <Link href="/contact" className="text-gray-600 hover:text-gray-900">
               Contact
             </Link>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 w-full">
+            <Link href="/contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 w-full text-center">
               Get Started
-            </button>
+            </Link>
           </nav>
         )}
       </div>

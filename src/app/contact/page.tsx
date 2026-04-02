@@ -39,7 +39,7 @@ export default function Contact() {
                 Get Started with edu.cloud
               </h1>
               <p className="text-xl text-gray-600">
-                Contact us to learn how we can help your institution measure and demonstrate its alumni impact.
+                Contact us to learn how we can help your institution measure and demonstrate its impact.
               </p>
             </div>
 
@@ -117,7 +117,7 @@ export default function Contact() {
 
               {submitted && (
                 <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800 text-center">
-                  ✓ Thank you! We'll be in touch soon.
+                  ✓ Thank you! We\'ll be in touch soon.
                 </div>
               )}
             </form>

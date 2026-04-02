@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="font-bold text-white">edu.cloud</span>
             </Link>
             <p className="text-sm text-gray-400">
-              Measure the impact of your education and research on alumni success and society.
+              Research services for higher education to demonstrate the impact of education and research on alumni success and society.
             </p>
           </div>
 
