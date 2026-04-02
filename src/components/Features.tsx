@@ -1,58 +1,55 @@
-export default function Features() {
+'use client';
+
+export function Features() {
   const features = [
     {
-      title: 'Comprehensive Alumni Tracking',
-      description: 'Submit spreadsheets of student and alumni names. We conduct extensive online research to build complete professional profiles for each individual.',
+      title: 'Comprehensive Alumni Research',
+      description: 'Upload student and alumni lists, and we conduct extensive online research to map career trajectories and professional outcomes.',
+      icon: '🔍',
+    },
+    {
+      title: 'Impact Metrics That Matter',
+      description: 'Track companies founded, promotions earned, jobs created, and venture capital raised by your alumni network.',
       icon: '📊',
     },
     {
-      title: 'Impact Metrics at Scale',
-      description: 'Automatically track companies founded, promotions received, jobs created, venture capital raised, and other key achievements across your entire alumni network.',
-      icon: '📈',
-    },
-    {
-      title: 'Exit Events & Acquisitions',
-      description: 'Monitor significant career milestones including mergers, acquisitions, IPOs, and other major professional events that define alumni success.',
+      title: 'Exit Event Tracking',
+      description: 'Monitor mergers, acquisitions, IPOs, and other significant company events involving your alumni entrepreneurs.',
       icon: '🎯',
     },
     {
-      title: 'Aggregated Impact Reports',
-      description: 'Receive detailed reports demonstrating your institution\'s collective impact on alumni careers and broader societal contributions.',
+      title: 'Aggregated Insights',
+      description: 'Visualize institutional impact through dashboards and reports that showcase the collective success of your graduates.',
+      icon: '📈',
+    },
+    {
+      title: 'Easy Data Integration',
+      description: 'Simple spreadsheet uploads with secure data handling and comprehensive privacy protections for all individuals.',
+      icon: '💾',
+    },
+    {
+      title: 'Reporting & Analytics',
+      description: 'Generate detailed reports and analytics to support fundraising, accreditation, and strategic planning initiatives.',
       icon: '📋',
-    },
-    {
-      title: 'Data Privacy & Security',
-      description: 'Your alumni data is handled with the highest security standards. We comply with all data protection regulations and maintain strict confidentiality.',
-      icon: '🔒',
-    },
-    {
-      title: 'Easy Integration',
-      description: 'Simple spreadsheet upload process. No complex integrations or technical setup required. Get started in minutes.',
-      icon: '⚡',
     },
   ];
 
   return (
-    <section id="features" className="py-20 sm:py-32 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Powerful Features for Institutions
-          </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Everything you need to measure, track, and demonstrate your institution's impact on alumni success and society.
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Powerful Features for Impact Measurement</h2>
+          <p className="text-xl text-gray-700">
+            Everything you need to demonstrate the value of your educational and research initiatives
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition border border-gray-200"
-            >
+            <div key={index} className="p-8 border border-gray-200 rounded-xl hover:shadow-lg transition">
               <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">{feature.title}</h3>
+              <p className="text-gray-700 leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>
