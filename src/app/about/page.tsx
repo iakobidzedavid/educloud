@@ -1,80 +1,51 @@
-'use client';
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const AboutPage = () => {
+export default function About() {
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <Header />
-      
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-5xl font-bold text-gray-900 mb-6">
-          About edu.cloud
-        </h1>
-        <p className="text-xl text-gray-600 mb-12 max-w-3xl">
-          We help higher education institutions demonstrate the real, measurable impact their education and research has on alumni careers and society at large.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
-            <p className="text-gray-600 mb-4">
-              edu.cloud exists to bridge the visibility gap between higher education and real-world impact. Universities invest substantially in their students' educations, yet they often lack comprehensive data on career outcomes and societal contributions.
+      <main className="pt-24 pb-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">About edu.cloud</h1>
+          
+          <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
+            <p>
+              edu.cloud transforms how higher education institutions demonstrate their impact. We combine advanced research technology with deep institutional knowledge to tell the powerful stories of alumni success.
             </p>
-            <p className="text-gray-600">
-              By providing research-backed alumni impact data, we enable institutions to demonstrate their value, make strategic decisions, and celebrate their graduates' achievements.
+            
+            <h2 className="text-2xl font-bold text-gray-900 mt-8">Our Mission</h2>
+            <p>
+              We empower universities and colleges to quantify and communicate the transformative impact of their education and research on alumni careers and society at large.
             </p>
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">How We Work</h2>
-            <p className="text-gray-600 mb-4">
-              We accept spreadsheets of student and alumni names from your institution. Our research team then conducts vast online research for each individual, gathering data from professional networks, news sources, company records, and public databases.
+            
+            <h2 className="text-2xl font-bold text-gray-900 mt-8">How We Work</h2>
+            <p>
+              Our process is straightforward and secure. Institutions provide us with anonymized spreadsheets of student and alumni data. Our proprietary research engine then conducts comprehensive online research for each individual, tracking their professional journeys, achievements, and contributions to society.
             </p>
-            <p className="text-gray-600">
-              We aggregate this data into meaningful metrics demonstrating institutional impact: companies founded, promotions received, jobs created, venture capital raised, and major exit events.
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-gray-50 p-12 rounded-lg mb-20">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Why Higher Education Institutions Choose edu.cloud</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Comprehensive Data</h3>
-              <p className="text-gray-600">
-                We don't rely on surveys or self-reported outcomes. Our research team uses extensive online sources to build accurate, verifiable career profiles for your alumni.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Actionable Insights</h3>
-              <p className="text-gray-600">
-                Raw data becomes strategic intelligence. We organize findings into clear metrics and visualizations that support institutional decision-making across departments.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Privacy & Compliance</h3>
-              <p className="text-gray-600">
-                We handle alumni data responsibly and comply with all privacy regulations. Your institution retains control of your data throughout the process.
-              </p>
-            </div>
+            
+            <h2 className="text-2xl font-bold text-gray-900 mt-8">What We Measure</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Companies Founded:</strong> Entrepreneurial ventures launched by alumni</li>
+              <li><strong>Career Advancement:</strong> Promotions and leadership positions achieved</li>
+              <li><strong>Job Creation:</strong> Employment opportunities generated through alumni-led organizations</li>
+              <li><strong>Capital Raised:</strong> Venture funding secured by alumni entrepreneurs</li>
+              <li><strong>Exit Events:</strong> Mergers, acquisitions, and IPOs involving alumni</li>
+              <li><strong>Professional Recognition:</strong> Awards, patents, and industry achievements</li>
+            </ul>
+            
+            <h2 className="text-2xl font-bold text-gray-900 mt-8">Why Choose edu.cloud?</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Comprehensive research covering both traditional and emerging platforms</li>
+              <li>Privacy-first approach with full data security compliance</li>
+              <li>Detailed metrics and insights your stakeholders care about</li>
+              <li>Actionable data for strategic planning and institutional improvement</li>
+              <li>Expert analysis and customized reporting</li>
+            </ul>
           </div>
         </div>
-
-        <section className="text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Ready to Measure Impact?</h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Contact us today to learn how edu.cloud can help your institution demonstrate the value and impact of your education.
-          </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
-            Schedule a Demo
-          </button>
-        </section>
-      </section>
-
+      </main>
       <Footer />
-    </main>
+    </div>
   );
-};
-
-export default AboutPage;
+}

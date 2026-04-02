@@ -1,96 +1,73 @@
-'use client';
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Mail, Phone, MapPin } from 'lucide-react';
 
-const ContactPage = () => {
+export default function Contact() {
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <Header />
-      
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
-          Contact Us
-        </h1>
-        <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto text-center">
-          Have questions about how edu.cloud can help your institution measure and demonstrate alumni impact? We'd love to hear from you.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-          <div className="bg-blue-50 p-8 rounded-lg text-center">
-            <Mail className="text-blue-600 mx-auto mb-4" size={32} />
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">Email</h3>
-            <p className="text-gray-600">contact@edu.cloud</p>
+      <main className="pt-24 pb-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Get in Touch</h1>
+            <p className="text-xl text-gray-600">Let us show you how edu.cloud can demonstrate your institution's impact</p>
           </div>
-          <div className="bg-blue-50 p-8 rounded-lg text-center">
-            <Phone className="text-blue-600 mx-auto mb-4" size={32} />
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">Phone</h3>
-            <p className="text-gray-600">+1 (855) EDU-CLOUD</p>
-          </div>
-          <div className="bg-blue-50 p-8 rounded-lg text-center">
-            <MapPin className="text-blue-600 mx-auto mb-4" size={32} />
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">Location</h3>
-            <p className="text-gray-600">San Francisco, CA</p>
+          
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-gray-50 rounded-lg p-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
+              
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
+                  <p className="text-gray-600">hello@edu.cloud</p>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Sales Inquiries</h3>
+                  <p className="text-gray-600">sales@edu.cloud</p>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Support</h3>
+                  <p className="text-gray-600">support@edu.cloud</p>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Based In</h3>
+                  <p className="text-gray-600">United States</p>
+                </div>
+              </div>
+            </div>
+            
+            <form className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-900 mb-2">Name</label>
+                <input type="text" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-900 mb-2">Institution</label>
+                <input type="text" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-900 mb-2">Email</label>
+                <input type="email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-gray-900 mb-2">Message</label>
+                <textarea rows={4} className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+              </div>
+              
+              <button type="submit" className="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
-
-        <div className="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
-          <form className="space-y-6">
-            <div>
-              <label className="block text-sm font-semibold text-gray-900 mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                placeholder="Your name"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-semibold text-gray-900 mb-2">
-                Institution
-              </label>
-              <input
-                type="text"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                placeholder="Your institution"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-semibold text-gray-900 mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                placeholder="your@institution.edu"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-semibold text-gray-900 mb-2">
-                Message
-              </label>
-              <textarea
-                rows={5}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                placeholder="Tell us about your needs and how we can help..."
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-      </section>
-
+      </main>
       <Footer />
-    </main>
+    </div>
   );
-};
-
-export default ContactPage;
+}
