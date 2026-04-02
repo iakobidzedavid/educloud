@@ -2,98 +2,47 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const links = [
-    { href: '/features', label: 'Features' },
-    { href: '/about', label: 'About' },
-    { href: '/pricing', label: 'Pricing' },
-    { href: '/contact', label: 'Contact' }
-  ];
-
   return (
-    <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-bold text-2xl text-blue-600 hover:text-blue-700 transition-colors">
-            <span className="bg-blue-600 text-white w-8 h-8 rounded flex items-center justify-center text-sm">ec</span>
-            <span className="hidden sm:inline">edu.cloud</span>
+    <header className="sticky top-0 z-50 bg-white shadow-md">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+        <Link href="/" className="flex items-center gap-2">
+          <div className="text-2xl font-bold text-blue-600">edu.cloud</div>
+          <span className="text-xs text-gray-600 font-semibold hidden sm:inline">IMPACT RESEARCH</span>
+        </Link>
+        
+        <button 
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-gray-600 hover:text-blue-600"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+
+        <div className={`hidden md:flex gap-8 items-center`}>
+          <Link href="/features" className="text-gray-700 hover:text-blue-600 font-medium">Features</Link>
+          <Link href="/how-it-works" className="text-gray-700 hover:text-blue-600 font-medium">How It Works</Link>
+          <Link href="/case-studies" className="text-gray-700 hover:text-blue-600 font-medium">Case Studies</Link>
+          <Link href="/contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-medium">
+            Get Started
           </Link>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            {links.map(link => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-slate-600 hover:text-blue-600 transition-colors font-medium"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
-
-          {/* Desktop CTA */}
-          <div className="hidden md:flex gap-4">
-            <Link
-              href="/contact"
-              className="px-6 py-2 text-blue-600 border border-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-            >
-              Demo
-            </Link>
-            <Link
-              href="/contact"
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-            >
-              Get Started
-            </Link>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
         </div>
+      </nav>
 
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden border-t border-slate-200 py-4 space-y-4">
-            {links.map(link => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="block text-slate-600 hover:text-blue-600 transition-colors font-medium py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <div className="flex flex-col gap-3 pt-4">
-              <Link
-                href="/contact"
-                className="text-center px-6 py-2 text-blue-600 border border-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                Demo
-              </Link>
-              <Link
-                href="/contact"
-                className="text-center px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                Get Started
-              </Link>
-            </div>
-          </div>
-        )}
-      </div>
+      {isOpen && (
+        <div className="md:hidden bg-white border-t border-gray-200 px-4 py-4 space-y-4">
+          <Link href="/features" className="block text-gray-700 hover:text-blue-600 font-medium">Features</Link>
+          <Link href="/how-it-works" className="block text-gray-700 hover:text-blue-600 font-medium">How It Works</Link>
+          <Link href="/case-studies" className="block text-gray-700 hover:text-blue-600 font-medium">Case Studies</Link>
+          <Link href="/contact" className="block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-medium text-center">
+            Get Started
+          </Link>
+        </div>
+      )}
     </header>
   );
 }
