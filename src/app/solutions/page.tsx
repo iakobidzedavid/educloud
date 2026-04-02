@@ -69,7 +69,7 @@ export default function SolutionsPage() {
                   <ul className="space-y-2">
                     {solution.useCases.map((useCase, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="text-yellow-500 mr-3">check</span>
+                        <span className="text-yellow-500 mr-3">+</span>
                         <span className="text-gray-600">{useCase}</span>
                       </li>
                     ))}
