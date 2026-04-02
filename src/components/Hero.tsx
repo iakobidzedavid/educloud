@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-br from-yellow-50 to-amber-50 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -11,10 +11,10 @@ export default function Hero() {
               Transform alumni data into powerful impact stories. Demonstrate how your education and research has shaped careers, created jobs, and driven innovation across industries.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
+              <button className="bg-yellow-500 text-gray-900 px-8 py-3 rounded-lg hover:bg-yellow-600 transition font-semibold">
                 Start Free Trial
               </button>
-              <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition font-semibold">
+              <button className="border-2 border-yellow-500 text-yellow-600 px-8 py-3 rounded-lg hover:bg-yellow-50 transition font-semibold">
                 Watch Demo
               </button>
             </div>
@@ -22,8 +22,8 @@ export default function Hero() {
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
             <div className="space-y-4">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl">📊</span>
+                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">1</span>
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Upload Alumni Data</p>
@@ -31,8 +31,8 @@ export default function Hero() {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl">🔍</span>
+                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">2</span>
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Comprehensive Research</p>
@@ -40,8 +40,8 @@ export default function Hero() {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl">📈</span>
+                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">3</span>
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Impact Metrics</p>

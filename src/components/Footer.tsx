@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="font-bold text-white">edu.cloud</span>
             </Link>
             <p className="text-sm text-gray-400">
-              Demonstrate the impact of your education and research on alumni success and society.
+              Measure and demonstrate your institution's alumni impact with comprehensive research and analytics.
             </p>
           </div>
 
