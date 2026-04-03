@@ -1,58 +1,50 @@
 export default function Features() {
   const features = [
     {
-      icon: '9',
-      title: 'Companies Started',
-      description: 'Track how many alumni have founded successful companies and ventures from your institution.',
+      title: 'Alumni Data Analysis',
+      description: 'Upload spreadsheets of student and alumni names. We conduct comprehensive online research to track their professional journeys.',
+      icon: '📊'
     },
     {
-      icon: '8',
-      title: 'Career Progression',
-      description: 'Measure promotions, leadership positions, and career advancement across your alumni network.',
+      title: 'Impact Metrics',
+      description: 'Track companies started, promotions received, jobs created, and venture capital raised by your alumni network.',
+      icon: '📈'
     },
     {
-      icon: '7',
-      title: 'Jobs Created',
-      description: 'Aggregate the total jobs created by alumni entrepreneurs and leaders in their organizations.',
-    },
-    {
-      icon: '6',
-      title: 'Capital Raised',
-      description: 'Quantify venture capital, funding rounds, and investment success among alumni-led ventures.',
-    },
-    {
-      icon: '5',
       title: 'Exit Events',
-      description: 'Document IPOs, acquisitions, and mergers involving your alumni as founders or key executives.',
+      description: 'Measure success through mergers, acquisitions, and IPOs achieved by your institution\'s graduates.',
+      icon: '🎯'
     },
     {
-      icon: '4',
-      title: 'Aggregate Analytics',
-      description: 'Generate comprehensive reports showing your institution\'s collective impact on society and industry.',
+      title: 'Comprehensive Reporting',
+      description: 'Receive detailed reports aggregating professional achievements and demonstrating institutional impact.',
+      icon: '📋'
     },
+    {
+      title: 'Research Expertise',
+      description: 'Our team conducts vast online research to uncover career progression and entrepreneurial success stories.',
+      icon: '🔍'
+    },
+    {
+      title: 'Impact Storytelling',
+      description: 'Transform data into compelling narratives that showcase your institution\'s contribution to society and the economy.',
+      icon: '📖'
+    }
   ];
 
   return (
-    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Comprehensive Impact Tracking
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Measure the real-world outcomes and achievements of your alumni across multiple dimensions of success.
-          </p>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+          <p className="text-xl text-gray-600">Comprehensive research and impact measurement for higher education</p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-gray-50 rounded-xl p-8 hover:shadow-lg hover:bg-yellow-50 transition duration-300 border border-gray-100"
-            >
+            <div key={index} className="p-8 border border-gray-200 rounded-lg hover:shadow-lg hover:border-yellow-300 transition-all">
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              <p className="text-gray-600">{feature.description}</p>
             </div>
           ))}
         </div>
