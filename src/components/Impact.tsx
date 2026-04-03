@@ -48,9 +48,9 @@ export default function Impact() {
           {metrics.map((metric, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-8 text-center border border-yellow-200"
+              className="bg-gradient-to-br from-red-50 to-rose-50 rounded-xl p-8 text-center border border-red-200"
             >
-              <div className="text-4xl sm:text-5xl font-bold text-yellow-600 mb-2">
+              <div className="text-4xl sm:text-5xl font-bold text-red-600 mb-2">
                 {metric.number}
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">{metric.label}</h3>
@@ -59,7 +59,7 @@ export default function Impact() {
           ))}
         </div>
 
-        <div className="mt-16 bg-yellow-50 rounded-2xl p-8 sm:p-12 border border-yellow-200">
+        <div className="mt-16 bg-red-50 rounded-2xl p-8 sm:p-12 border border-red-200">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Institutions Choose edu.cloud</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex gap-4">
