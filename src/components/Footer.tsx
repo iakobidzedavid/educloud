@@ -12,24 +12,24 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4">Navigation</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="hover:text-yellow-400 transition-colors">Home</Link></li>
-              <li><Link href="/services" className="hover:text-yellow-400 transition-colors">Services</Link></li>
-              <li><Link href="/about" className="hover:text-yellow-400 transition-colors">About</Link></li>
-              <li><Link href="/contact" className="hover:text-yellow-400 transition-colors">Contact</Link></li>
+              <li><Link href="/" className="hover:text-red-400 transition-colors">Home</Link></li>
+              <li><Link href="/services" className="hover:text-red-400 transition-colors">Services</Link></li>
+              <li><Link href="/about" className="hover:text-red-400 transition-colors">About</Link></li>
+              <li><Link href="/contact" className="hover:text-red-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-bold mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Alumni Research</a></li>
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Impact Analysis</a></li>
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Data Reporting</a></li>
+              <li><a href="#" className="hover:text-red-400 transition-colors">Alumni Research</a></li>
+              <li><a href="#" className="hover:text-red-400 transition-colors">Impact Analysis</a></li>
+              <li><a href="#" className="hover:text-red-400 transition-colors">Data Reporting</a></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="mailto:info@edu.cloud" className="hover:text-yellow-400 transition-colors">info@edu.cloud</a></li>
+              <li><a href="mailto:info@edu.cloud" className="hover:text-red-400 transition-colors">info@edu.cloud</a></li>
               <li className="text-gray-400">Higher Education Research</li>
               <li className="text-gray-400">Impact Measurement</li>
             </ul>

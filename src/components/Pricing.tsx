@@ -67,12 +67,12 @@ const Pricing = () => {
               key={index}
               className={`rounded-2xl p-8 flex flex-col h-full transition duration-300 ${
                 plan.popular
-                  ? 'bg-yellow-500 text-gray-900 shadow-2xl scale-105'
+                  ? 'bg-red-500 text-gray-900 shadow-2xl scale-105'
                   : 'bg-white border border-gray-200 hover:shadow-lg'
               }`}
             >
               {plan.popular && (
-                <div className="mb-4 inline-block w-fit px-4 py-1 bg-yellow-400 rounded-full text-sm font-semibold text-gray-900">
+                <div className="mb-4 inline-block w-fit px-4 py-1 bg-red-400 rounded-full text-sm font-semibold text-gray-900">
                   Most Popular
                 </div>
               )}
@@ -97,8 +97,8 @@ const Pricing = () => {
               <button
                 className={`w-full py-3 rounded-lg font-semibold mb-8 transition ${
                   plan.popular
-                    ? 'bg-gray-900 text-yellow-400 hover:bg-gray-800'
-                    : 'bg-yellow-500 text-gray-900 hover:bg-yellow-600'
+                    ? 'bg-gray-900 text-red-400 hover:bg-gray-800'
+                    : 'bg-red-500 text-white hover:bg-red-600'
                 }`}
               >
                 Get Started

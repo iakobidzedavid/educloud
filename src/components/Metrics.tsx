@@ -23,7 +23,7 @@ export default function Metrics() {
   ];
 
   return (
-    <section className="py-20 sm:py-32 bg-gradient-to-br from-yellow-400 to-amber-500">
+    <section className="py-20 sm:py-32 bg-gradient-to-br from-red-400 to-rose-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
