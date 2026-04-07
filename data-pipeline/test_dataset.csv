@@ -1,0 +1,101 @@
+alumni_id,first_name,last_name,graduation_year,degree,major,institution
+1,James,Mitchell,2018,BS,Computer Science,Greenfield State University
+2,Sarah,Thompson,2019,BA,Economics,Greenfield State University
+3,Michael,Nguyen,2017,MS,Data Science,Greenfield State University
+4,Emily,Rodriguez,2020,BA,Psychology,Greenfield State University
+5,David,Kim,2018,BS,Mechanical Engineering,Greenfield State University
+6,Jessica,Patel,2019,MBA,Business Administration,Greenfield State University
+7,Christopher,Williams,2016,BS,Electrical Engineering,Greenfield State University
+8,Ashley,Johnson,2020,BA,Political Science,Greenfield State University
+9,Matthew,Brown,2017,BS,Biology,Greenfield State University
+10,Amanda,Davis,2018,BA,Communications,Greenfield State University
+11,Daniel,Martinez,2019,BS,Computer Science,Greenfield State University
+12,Stephanie,Anderson,2020,BA,English Literature,Greenfield State University
+13,Joshua,Taylor,2016,MS,Civil Engineering,Greenfield State University
+14,Rachel,Thomas,2018,BS,Nursing,Greenfield State University
+15,Andrew,Jackson,2019,BA,History,Greenfield State University
+16,Lauren,White,2017,BS,Finance,Greenfield State University
+17,Ryan,Harris,2020,BS,Marketing,Greenfield State University
+18,Brittany,Martin,2018,BA,Sociology,Greenfield State University
+19,Nicholas,Garcia,2019,MS,Environmental Science,Greenfield State University
+20,Megan,Wilson,2016,BS,Accounting,Greenfield State University
+21,Tyler,Moore,2020,BA,Philosophy,Greenfield State University
+22,Kayla,Lee,2017,BS,Biochemistry,Greenfield State University
+23,Brandon,Lewis,2018,MS,Information Technology,Greenfield State University
+24,Samantha,Robinson,2019,BA,Art History,Greenfield State University
+25,Austin,Clark,2016,BS,Physics,Greenfield State University
+26,Heather,Walker,2020,MBA,Management,Greenfield State University
+27,Jonathan,Hall,2018,BS,Chemical Engineering,Greenfield State University
+28,Danielle,Allen,2017,BA,Music,Greenfield State University
+29,Nathan,Young,2019,BS,Architecture,Greenfield State University
+30,Ashley,Hernandez,2020,BA,Geography,Greenfield State University
+31,Adam,King,2016,BS,Statistics,Greenfield State University
+32,Jennifer,Wright,2018,MS,Public Health,Greenfield State University
+33,Kyle,Lopez,2019,BA,Journalism,Greenfield State University
+34,Brittney,Hill,2017,BS,Biotechnology,Greenfield State University
+35,Zachary,Scott,2020,BS,Industrial Engineering,Greenfield State University
+36,Erica,Green,2018,BA,Theatre,Greenfield State University
+37,Derek,Adams,2019,MS,Cybersecurity,Greenfield State University
+38,Tiffany,Baker,2016,BA,Spanish,Greenfield State University
+39,Cody,Carter,2020,BS,Supply Chain Management,Greenfield State University
+40,Vanessa,Roberts,2017,BA,Criminal Justice,Greenfield State University
+41,Jordan,Turner,2018,BS,Mathematics,Greenfield State University
+42,Crystal,Phillips,2019,BA,Education,Greenfield State University
+43,Trevor,Campbell,2016,MS,Operations Research,Greenfield State University
+44,Alexis,Parker,2020,BS,Health Sciences,Greenfield State University
+45,Marcus,Evans,2017,BS,Aerospace Engineering,Greenfield State University
+46,Monica,Edwards,2018,BA,International Relations,Greenfield State University
+47,Travis,Collins,2019,BS,Software Engineering,Greenfield State University
+48,Jasmine,Stewart,2016,BA,French,Greenfield State University
+49,Brandon,Morris,2020,MBA,Entrepreneurship,Greenfield State University
+50,Danielle,Sanchez,2017,BS,Neuroscience,Greenfield State University
+51,Shane,Rogers,2018,BA,Anthropology,Greenfield State University
+52,Nicole,Reed,2019,BS,Materials Science,Greenfield State University
+53,Kevin,Cook,2016,MS,Electrical Engineering,Greenfield State University
+54,Alyssa,Morgan,2020,BA,Creative Writing,Greenfield State University
+55,Sean,Bell,2017,BS,Information Systems,Greenfield State University
+56,Brittany,Murphy,2018,BA,Women's Studies,Greenfield State University
+57,Patrick,Bailey,2019,MS,Robotics,Greenfield State University
+58,Courtney,Rivera,2016,BS,Environmental Engineering,Greenfield State University
+59,Greg,Cooper,2020,BA,Film Studies,Greenfield State University
+60,Amber,Richardson,2017,BS,Industrial Design,Greenfield State University
+61,Dustin,Cox,2018,MS,Finance,Greenfield State University
+62,Victoria,Howard,2019,BA,Linguistics,Greenfield State University
+63,Caleb,Ward,2016,BS,Computer Engineering,Greenfield State University
+64,Whitney,Torres,2020,BA,Urban Studies,Greenfield State University
+65,Spencer,Peterson,2017,MS,Machine Learning,Greenfield State University
+66,Cassandra,Gray,2018,BS,Pre-Medicine,Greenfield State University
+67,Lance,Ramirez,2019,BA,Religious Studies,Greenfield State University
+68,Tracey,James,2016,BS,Biomedical Engineering,Greenfield State University
+69,Eric,Watson,2020,MS,Applied Mathematics,Greenfield State University
+70,Holly,Brooks,2017,BA,Library Science,Greenfield State University
+71,Aaron,Kelly,2018,BS,Agricultural Science,Greenfield State University
+72,Stacy,Sanders,2019,BA,Graphic Design,Greenfield State University
+73,Phillip,Price,2016,MS,Systems Engineering,Greenfield State University
+74,Wendy,Bennett,2020,BS,Microbiology,Greenfield State University
+75,Stuart,Wood,2017,MBA,Healthcare Management,Greenfield State University
+76,April,Barnes,2018,BA,Social Work,Greenfield State University
+77,Evan,Ross,2019,BS,Game Design,Greenfield State University
+78,Shelby,Henderson,2016,BA,Public Relations,Greenfield State University
+79,Todd,Coleman,2020,MS,Bioinformatics,Greenfield State University
+80,Kristen,Jenkins,2017,BS,Forensic Science,Greenfield State University
+81,Luke,Perry,2018,BA,Economics,Greenfield State University
+82,Brenda,Powell,2019,BS,Chemical Engineering,Greenfield State University
+83,Garrett,Long,2016,MS,Energy Systems,Greenfield State University
+84,Desiree,Patterson,2020,BA,Psychology,Greenfield State University
+85,Corey,Hughes,2017,BS,Cybersecurity,Greenfield State University
+86,Tara,Flores,2018,BA,Marketing,Greenfield State University
+87,Dylan,Washington,2019,MS,Data Engineering,Greenfield State University
+88,Felicia,Butler,2016,BS,Physics,Greenfield State University
+89,Marcus,Simmons,2020,BA,Music Business,Greenfield State University
+90,Krystal,Foster,2017,BS,Interior Design,Greenfield State University
+91,Chase,Gonzalez,2018,MS,Structural Engineering,Greenfield State University
+92,Destiny,Bryant,2019,BA,Media Studies,Greenfield State University
+93,Seth,Alexander,2016,BS,Actuarial Science,Greenfield State University
+94,Latoya,Russell,2020,BA,Dance,Greenfield State University
+95,Dillon,Griffin,2017,MS,Cognitive Science,Greenfield State University
+96,Shawna,Diaz,2018,BS,Telecommunications,Greenfield State University
+97,Colton,Hayes,2019,BA,Political Economy,Greenfield State University
+98,Bianca,Myers,2016,MS,Computational Biology,Greenfield State University
+99,Trenton,Ford,2020,BS,Logistics,Greenfield State University
+100,Cassidy,Hamilton,2017,BA,Anthropology,Greenfield State University
