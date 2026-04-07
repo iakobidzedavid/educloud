@@ -1,7 +1,123 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { useState } from 'react';
+
+interface FormData {
+  name: string;
+  email: string;
+  institution: string;
+  message: string;
+}
+
+interface FormErrors {
+  name?: string;
+  email?: string;
+  institution?: string;
+  message?: string;
+}
 
 export default function Contact() {
+  const [formData, setFormData] = useState<FormData>({
+    name: '',
+    email: '',
+    institution: '',
+    message: '',
+  });
+
+  const [errors, setErrors] = useState<FormErrors>({});
+  const [loading, setLoading] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [submitMessage, setSubmitMessage] = useState('');
+
+  const validateForm = (): boolean => {
+    const newErrors: FormErrors = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required';
+    }
+
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = 'Please enter a valid email address';
+    }
+
+    if (!formData.institution.trim()) {
+      newErrors.institution = 'Institution is required';
+    }
+
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required';
+    } else if (formData.message.trim().length < 10) {
+      newErrors.message = 'Message must be at least 10 characters long';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+
+    if (errors[name as keyof FormErrors]) {
+      setErrors((prev) => ({
+        ...prev,
+        [name]: undefined,
+      }));
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
+
+    setLoading(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setSubmitStatus('error');
+        setSubmitMessage(data.message || 'An error occurred. Please try again.');
+        return;
+      }
+
+      setSubmitStatus('success');
+      setSubmitMessage(data.message || 'Thank you! We\'ll be in touch soon.');
+      setFormData({
+        name: '',
+        email: '',
+        institution: '',
+        message: '',
+      });
+    } catch (error) {
+      setSubmitStatus('error');
+      setSubmitMessage('An error occurred. Please try again later.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <main className="min-h-screen bg-white">
       <Header />
@@ -32,51 +148,121 @@ export default function Contact() {
 
           <div className="bg-gray-50 p-8 rounded-lg mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Form</h2>
-            <form className="space-y-6">
-              <div>
-                <label className="block text-gray-700 font-bold mb-2">Institution Name</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
-                  placeholder="Your institution name"
-                />
+
+            {submitStatus === 'success' && (
+              <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                <p className="text-green-800 font-semibold">{submitMessage}</p>
               </div>
+            )}
+
+            {submitStatus === 'error' && (
+              <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                <p className="text-red-800 font-semibold">{submitMessage}</p>
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label className="block text-gray-700 font-bold mb-2">Contact Name</label>
+                <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
+                  Name <span className="text-red-600">*</span>
+                </label>
                 <input
+                  id="name"
                   type="text"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className={`w-full px-4 py-2 border rounded-lg focus:outline-none transition-colors ${
+                    errors.name
+                      ? 'border-red-500 focus:border-red-600 bg-red-50'
+                      : 'border-gray-300 focus:border-red-500'
+                  }`}
                   placeholder="Your name"
+                  disabled={loading}
                 />
+                {errors.name && (
+                  <p className="text-red-600 text-sm mt-1">{errors.name}</p>
+                )}
               </div>
+
               <div>
-                <label className="block text-gray-700 font-bold mb-2">Email Address</label>
+                <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
+                  Email Address <span className="text-red-600">*</span>
+                </label>
                 <input
+                  id="email"
                   type="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className={`w-full px-4 py-2 border rounded-lg focus:outline-none transition-colors ${
+                    errors.email
+                      ? 'border-red-500 focus:border-red-600 bg-red-50'
+                      : 'border-gray-300 focus:border-red-500'
+                  }`}
                   placeholder="your@email.com"
+                  disabled={loading}
                 />
+                {errors.email && (
+                  <p className="text-red-600 text-sm mt-1">{errors.email}</p>
+                )}
               </div>
+
               <div>
-                <label className="block text-gray-700 font-bold mb-2">Phone Number</label>
+                <label htmlFor="institution" className="block text-gray-700 font-bold mb-2">
+                  Institution <span className="text-red-600">*</span>
+                </label>
                 <input
-                  type="tel"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
-                  placeholder="Your phone number"
+                  id="institution"
+                  type="text"
+                  name="institution"
+                  value={formData.institution}
+                  onChange={handleChange}
+                  className={`w-full px-4 py-2 border rounded-lg focus:outline-none transition-colors ${
+                    errors.institution
+                      ? 'border-red-500 focus:border-red-600 bg-red-50'
+                      : 'border-gray-300 focus:border-red-500'
+                  }`}
+                  placeholder="Your institution name"
+                  disabled={loading}
                 />
+                {errors.institution && (
+                  <p className="text-red-600 text-sm mt-1">{errors.institution}</p>
+                )}
               </div>
+
               <div>
-                <label className="block text-gray-700 font-bold mb-2">Message</label>
+                <label htmlFor="message" className="block text-gray-700 font-bold mb-2">
+                  Message <span className="text-red-600">*</span>
+                </label>
                 <textarea
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500 h-32"
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  className={`w-full px-4 py-2 border rounded-lg focus:outline-none transition-colors h-32 resize-none ${
+                    errors.message
+                      ? 'border-red-500 focus:border-red-600 bg-red-50'
+                      : 'border-gray-300 focus:border-red-500'
+                  }`}
                   placeholder="Tell us about your institution and research needs"
+                  disabled={loading}
                 />
+                {errors.message && (
+                  <p className="text-red-600 text-sm mt-1">{errors.message}</p>
+                )}
               </div>
+
               <button
                 type="submit"
-                className="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
+                disabled={loading}
+                className={`w-full font-bold py-3 px-8 rounded-lg transition-colors ${
+                  loading
+                    ? 'bg-gray-400 cursor-not-allowed text-white'
+                    : 'bg-red-500 hover:bg-red-600 text-white'
+                }`}
               >
-                Send Message
+                {loading ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           </div>
