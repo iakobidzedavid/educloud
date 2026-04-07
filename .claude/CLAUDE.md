@@ -19,6 +19,10 @@ educloud/
   package.json
   postcss.config.mjs
   tsconfig.json
+  .claude/
+    CLAUDE.md
+    settings.json
+    agents/
   documents/
     .gitkeep
   src/
