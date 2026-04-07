@@ -1,0 +1,32 @@
+# edu.cloud Alumni Pipeline Requirements
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Fuzzy string matching for name normalization
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0  # Speed up fuzzywuzzy
+
+# FERPA-compliant PII encryption
+cryptography>=41.0.0
+
+# HTTP requests for enrichment APIs (production use)
+requests>=2.31.0
+requests-cache>=1.1.0  # Cache API responses to avoid rate limits
+
+# Progress display
+tqdm>=4.65.0
+
+# Data validation
+jsonschema>=4.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: Selenium for web scraping
+# selenium>=4.10.0
+# webdriver-manager>=4.0.0
+# beautifulsoup4>=4.12.0
