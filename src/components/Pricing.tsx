@@ -65,41 +65,27 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`rounded-2xl p-8 flex flex-col h-full transition duration-300 ${
-                plan.popular
-                  ? 'bg-red-500 text-gray-900 shadow-2xl scale-105'
-                  : 'bg-white border border-gray-200 hover:shadow-lg'
-              }`}
+              className={`rounded-2xl p-8 flex flex-col h-full transition duration-300 ${plan.popular ? 'bg-green-500 text-gray-900 shadow-2xl scale-105' : 'bg-white border border-gray-200 hover:shadow-lg'}`}
             >
               {plan.popular && (
-                <div className="mb-4 inline-block w-fit px-4 py-1 bg-red-400 rounded-full text-sm font-semibold text-gray-900">
+                <div className="mb-4 inline-block w-fit px-4 py-1 bg-green-400 rounded-full text-sm font-semibold text-gray-900">
                   Most Popular
                 </div>
               )}
-              <h3 className={`text-2xl font-bold mb-2 ${
-                plan.popular ? 'text-gray-900' : 'text-gray-900'
-              }`}>
+              <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? 'text-gray-900' : 'text-gray-900'}`}>
                 {plan.name}
               </h3>
-              <p className={`mb-6 ${
-                plan.popular ? 'text-gray-800' : 'text-gray-600'
-              }`}>
+              <p className={`mb-6 ${plan.popular ? 'text-gray-800' : 'text-gray-600'}`}>
                 {plan.description}
               </p>
               <div className="mb-6">
                 <span className="text-5xl font-bold">{plan.price}</span>
-                <span className={`text-sm ml-2 ${
-                  plan.popular ? 'text-gray-800' : 'text-gray-600'
-                }`}>
+                <span className={`text-sm ml-2 ${plan.popular ? 'text-gray-800' : 'text-gray-600'}`}>
                   {plan.period}
                 </span>
               </div>
               <button
-                className={`w-full py-3 rounded-lg font-semibold mb-8 transition ${
-                  plan.popular
-                    ? 'bg-gray-900 text-red-400 hover:bg-gray-800'
-                    : 'bg-red-500 text-white hover:bg-red-600'
-                }`}
+                className={`w-full py-3 rounded-lg font-semibold mb-8 transition ${plan.popular ? 'bg-gray-900 text-green-400 hover:bg-gray-800' : 'bg-green-500 text-white hover:bg-green-600'}`}
               >
                 Get Started
               </button>
