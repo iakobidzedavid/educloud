@@ -44,7 +44,7 @@ export default function ResourcesPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-red-50 to-rose-50">
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
             Resources & Insights
@@ -61,17 +61,17 @@ export default function ResourcesPage() {
             {resources.map((resource, index) => (
               <div
                 key={index}
-                className="p-6 bg-red-50 rounded-xl border border-red-200 hover:shadow-lg transition cursor-pointer"
+                className="p-6 bg-green-50 rounded-xl border border-green-200 hover:shadow-lg transition cursor-pointer"
               >
                 <div className="text-3xl mb-4">{resource.icon}</div>
-                <div className="text-sm font-semibold text-red-600 mb-2 uppercase tracking-wide">
+                <div className="text-sm font-semibold text-green-600 mb-2 uppercase tracking-wide">
                   {resource.type}
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
                   {resource.title}
                 </h3>
                 <p className="text-gray-600 text-sm">{resource.description}</p>
-                <button className="mt-4 text-red-600 font-semibold hover:text-red-700 transition">
+                <button className="mt-4 text-green-600 font-semibold hover:text-green-700 transition">
                   Access
                 </button>
               </div>
@@ -80,7 +80,7 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      <section className="py-20 sm:py-32 bg-red-50">
+      <section className="py-20 sm:py-32 bg-green-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Stay Updated</h2>
           <p className="text-lg text-gray-600 mb-8">
@@ -90,12 +90,12 @@ export default function ResourcesPage() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 outline-none"
+              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
               required
             />
             <button
               type="submit"
-              className="px-6 py-3 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600 transition"
+              className="px-6 py-3 bg-green-500 text-white rounded-lg font-semibold hover:bg-green-600 transition"
             >
               Subscribe
             </button>

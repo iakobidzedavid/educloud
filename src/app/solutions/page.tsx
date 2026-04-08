@@ -44,7 +44,7 @@ export default function SolutionsPage() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-red-50 to-rose-50">
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
             Solutions for Every Institutional Need
@@ -59,7 +59,7 @@ export default function SolutionsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             {solutions.map((solution, index) => (
-              <div key={index} className="p-8 bg-red-50 rounded-xl border border-red-200">
+              <div key={index} className="p-8 bg-green-50 rounded-xl border border-green-200">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   {solution.title}
                 </h3>
@@ -69,7 +69,7 @@ export default function SolutionsPage() {
                   <ul className="space-y-2">
                     {solution.useCases.map((useCase, idx) => (
                       <li key={idx} className="flex items-start">
-                        <span className="text-red-500 mr-3">+</span>
+                        <span className="text-green-500 mr-3">+</span>
                         <span className="text-gray-600">{useCase}</span>
                       </li>
                     ))}
