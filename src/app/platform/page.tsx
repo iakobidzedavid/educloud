@@ -5,7 +5,7 @@ export default function Platform() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="py-20 sm:py-32 bg-gradient-to-br from-red-50 to-rose-50">
+      <section className="py-20 sm:py-32 bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-gray-900 mb-6 text-center">
             Our Platform

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="bg-gradient-to-br from-red-50 to-white py-16 px-4 sm:px-6 lg:px-8 mt-16">
+      <section className="bg-gradient-to-br from-green-50 to-white py-16 px-4 sm:px-6 lg:px-8 mt-16">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">About edu.cloud</h1>
           <p className="text-xl text-gray-600 mb-12">
@@ -40,7 +40,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-red-50 p-8 rounded-lg">
+            <div className="bg-green-50 p-8 rounded-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Metrics We Track</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -66,23 +66,23 @@ export default function About() {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Approach</h2>
               <ol className="space-y-4 text-gray-700">
                 <li className="flex">
-                  <span className="text-red-600 font-bold mr-4">1.</span>
+                  <span className="text-green-600 font-bold mr-4">1.</span>
                   <span><strong>Data Collection:</strong> You provide spreadsheets of student and alumni names</span>
                 </li>
                 <li className="flex">
-                  <span className="text-red-600 font-bold mr-4">2.</span>
+                  <span className="text-green-600 font-bold mr-4">2.</span>
                   <span><strong>Research Execution:</strong> Our team conducts comprehensive online research for each individual</span>
                 </li>
                 <li className="flex">
-                  <span className="text-red-600 font-bold mr-4">3.</span>
+                  <span className="text-green-600 font-bold mr-4">3.</span>
                   <span><strong>Data Aggregation:</strong> We compile professional achievements and career milestones</span>
                 </li>
                 <li className="flex">
-                  <span className="text-red-600 font-bold mr-4">4.</span>
+                  <span className="text-green-600 font-bold mr-4">4.</span>
                   <span><strong>Analysis:</strong> We analyze metrics to quantify institutional impact</span>
                 </li>
                 <li className="flex">
-                  <span className="text-red-600 font-bold mr-4">5.</span>
+                  <span className="text-green-600 font-bold mr-4">5.</span>
                   <span><strong>Reporting:</strong> We deliver detailed reports with visual dashboards and impact narratives</span>
                 </li>
               </ol>

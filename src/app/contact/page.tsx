@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <section className="bg-gradient-to-br from-red-50 to-white py-16 px-4 sm:px-6 lg:px-8 mt-16">
+      <section className="bg-gradient-to-br from-green-50 to-white py-16 px-4 sm:px-6 lg:px-8 mt-16">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Get In Touch</h1>
           <p className="text-xl text-gray-600 mb-12">
@@ -16,17 +16,17 @@ export default function Contact() {
             <div className="bg-white border border-gray-200 p-8 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
               <p className="text-gray-600">Send us your questions and project details</p>
-              <p className="text-lg font-bold text-red-600 mt-4">info@edu.cloud</p>
+              <p className="text-lg font-bold text-green-600 mt-4">info@edu.cloud</p>
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Quick Inquiry</h3>
               <p className="text-gray-600">Tell us about your institution and research needs</p>
-              <p className="text-lg font-bold text-red-600 mt-4">Fast Response Time</p>
+              <p className="text-lg font-bold text-green-600 mt-4">Fast Response Time</p>
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Services</h3>
               <p className="text-gray-600">Learn about our alumni research and impact measurement</p>
-              <p className="text-lg font-bold text-red-600 mt-4">Custom Solutions</p>
+              <p className="text-lg font-bold text-green-600 mt-4">Custom Solutions</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ export default function Contact() {
                 <label className="block text-gray-700 font-bold mb-2">Institution Name</label>
                 <input
                   type="text"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
                   placeholder="Your institution name"
                 />
               </div>
@@ -45,7 +45,7 @@ export default function Contact() {
                 <label className="block text-gray-700 font-bold mb-2">Contact Name</label>
                 <input
                   type="text"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
                   placeholder="Your name"
                 />
               </div>
@@ -53,7 +53,7 @@ export default function Contact() {
                 <label className="block text-gray-700 font-bold mb-2">Email Address</label>
                 <input
                   type="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
                   placeholder="your@email.com"
                 />
               </div>
@@ -61,27 +61,27 @@ export default function Contact() {
                 <label className="block text-gray-700 font-bold mb-2">Phone Number</label>
                 <input
                   type="tel"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
                   placeholder="Your phone number"
                 />
               </div>
               <div>
                 <label className="block text-gray-700 font-bold mb-2">Message</label>
                 <textarea
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500 h-32"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500 h-32"
                   placeholder="Tell us about your institution and research needs"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
               >
                 Send Message
               </button>
             </form>
           </div>
 
-          <div className="bg-red-50 p-8 rounded-lg">
+          <div className="bg-green-50 p-8 rounded-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
             <div className="space-y-6">
               <div>
