@@ -1,0 +1,227 @@
+institution_name,state,city,institution_type,public_private,estimated_alumni_base,enrollment_size,research_focus,advancement_office_title,estimated_annual_advancement_budget,key_metrics_opportunity,beachhead_segment
+Harvard University,MA,Cambridge,R1,Private Not-for-Profit,45000,22500,Comprehensive research across all fields,VP of Development,2000000,Companies founded - capital raised - executive positions,Research Universities (R1/R2)
+Stanford University,CA,Palo Alto,R1,Private Not-for-Profit,42000,17500,Engineering - computer science - medicine - business,VP for University Advancement,1500000,Startups - venture capital - exits - leadership,Research Universities (R1/R2)
+MIT,MA,Cambridge,R1,Private Not-for-Profit,35000,11500,Engineering - computer science - physical sciences,VP of Development,1800000,Tech companies - venture capital - entrepreneurship,Research Universities (R1/R2)
+Yale University,CT,New Haven,R1,Private Not-for-Profit,38000,13000,Liberal arts - sciences - engineering - professional schools,Senior VP for Development,1600000,Executive leadership - companies - capital,Research Universities (R1/R2)
+Princeton University,NJ,Princeton,R1,Private Not-for-Profit,28000,8500,Arts and sciences - engineering - public policy,VP for Development,1400000,Leadership - entrepreneurship - exits,Research Universities (R1/R2)
+Duke University,NC,Durham,R1,Private Not-for-Profit,32000,15000,Medicine - engineering - sciences - humanities,VP for Institutional Advancement,1200000,Medical innovations - leadership - capital,Research Universities (R1/R2)
+University of Chicago,IL,Chicago,R1,Private Not-for-Profit,28000,17000,Physical sciences - social sciences - humanities,VP for Strategic Initiatives,1100000,Leadership - research - entrepreneurship,Research Universities (R1/R2)
+Northwestern University,IL,Evanston,R1,Private Not-for-Profit,35000,20000,Engineering - medicine - business - journalism,VP of Development,1300000,Companies - leadership - capital raised,Research Universities (R1/R2)
+Johns Hopkins University,MD,Baltimore,R1,Private Not-for-Profit,32000,24000,Medicine - engineering - public health - sciences,VP for Institutional Advancement,1400000,Medical breakthroughs - leadership - research,Research Universities (R1/R2)
+University of Pennsylvania,PA,Philadelphia,R1,Private Not-for-Profit,38000,25000,Medicine - engineering - business - law,VP for Development,1300000,Entrepreneurs - capital - leadership,Research Universities (R1/R2)
+Columbia University,NY,New York,R1,Private Not-for-Profit,42000,33000,Comprehensive doctoral research,VP for University Development,1500000,Startups - capital - leadership - exits,Research Universities (R1/R2)
+California Institute of Technology,CA,Pasadena,R1,Private Not-for-Profit,20000,1250,Engineering - physical sciences - chemistry,VP for Institutional Advancement,1200000,Tech startups - venture capital - exits,Research Universities (R1/R2)
+University of California Berkeley,CA,Berkeley,R1,Public,68000,42000,All research disciplines,VP for University Development,900000,Tech companies - startups - capital,Research Universities (R1/R2)
+University of Michigan,MI,Ann Arbor,R1,Public,58000,47000,Engineering - medicine - business - sciences,VP for Development,800000,Auto industry - companies - leadership,Research Universities (R1/R2)
+University of Illinois Urbana-Champaign,IL,Urbana,R1,Public,52000,48000,Engineering - sciences - business - education,VP for Institutional Advancement,700000,Tech companies - startups - research,Research Universities (R1/R2)
+University of Texas at Austin,TX,Austin,R1,Public,72000,52000,Engineering - business - sciences - liberal arts,VP for Development,750000,Tech startups - companies - capital,Research Universities (R1/R2)
+University of Wisconsin Madison,WI,Madison,R1,Public,48000,45000,Engineering - medicine - sciences,VP for University Advancement,650000,Life sciences - leadership - research,Research Universities (R1/R2)
+University of Washington,WA,Seattle,R1,Public,62000,48000,Medicine - engineering - sciences - business,VP for University Development,700000,Medical research - companies - capital,Research Universities (R1/R2)
+University of Pennsylvania,PA,Philadelphia,R1,Private Not-for-Profit,38000,25000,Medicine - engineering - law - business,VP for Development,1300000,Entrepreneurs - capital - leadership,Research Universities (R1/R2)
+Ohio State University,OH,Columbus,R1,Public,72000,61000,All research disciplines,VP for Research,800000,Life sciences - companies - leadership,Research Universities (R1/R2)
+University of Southern California,CA,Los Angeles,R1,Private Not-for-Profit,48000,20000,Engineering - business - film - sciences,VP for University Advancement,1000000,Entertainment - tech - leadership - capital,Research Universities (R1/R2)
+UCLA,CA,Los Angeles,R1,Public,65000,45000,All research disciplines,Vice Chancellor for Development,750000,Tech - entertainment - leadership - research,Research Universities (R1/R2)
+University of Minnesota Twin Cities,MN,Minneapolis,R1,Public,58000,51000,Medicine - engineering - sciences - agriculture,VP for University Relations,650000,Medical research - companies - leadership,Research Universities (R1/R2)
+Michigan State University,MI,East Lansing,R1,Public,52000,50000,Agriculture - engineering - medicine - sciences,VP for University Advancement,600000,Agricultural innovation - leadership - research,Research Universities (R1/R2)
+University of New York at Buffalo,NY,Buffalo,R1,Public,48000,30000,Engineering - medicine - sciences - business,VP for University Advancement,500000,Life sciences - companies - leadership,Research Universities (R1/R2)
+Indiana University Bloomington,IN,Bloomington,R1,Public,42000,43000,Business - music - sciences - engineering,VP for Institutional Advancement,550000,Business leaders - entrepreneurs - capital,Research Universities (R1/R2)
+University of Colorado Boulder,CO,Boulder,R1,Public,52000,35000,Engineering - sciences - business - law,VP for University Relations,600000,Tech companies - leadership - research,Research Universities (R1/R2)
+University of Georgia,GA,Athens,R1,Public,48000,39000,Agriculture - engineering - sciences - business,VP for Development and Alumni Relations,500000,Agricultural innovation - leadership - companies,Research Universities (R1/R2)
+North Carolina State University,NC,Raleigh,R1,Public,52000,36000,Engineering - agriculture - sciences - business,VP for Research and Innovation,550000,Tech - agriculture - leadership - companies,Research Universities (R1/R2)
+University of Florida,FL,Gainesville,R1,Public,62000,52000,Medicine - engineering - agriculture - sciences,VP for University Relations,600000,Medical research - tech - leadership,Research Universities (R1/R2)
+University of Arizona,AZ,Tucson,R1,Public,48000,45000,Engineering - sciences - business - agriculture,VP for University Advancement,500000,Tech - agriculture - research - leadership,Research Universities (R1/R2)
+University of Virginia,VA,Charlottesville,R1,Public,48000,28000,Medicine - engineering - business - law,VP for Development,700000,Tech - leadership - companies - capital,Research Universities (R1/R2)
+University of Maryland College Park,MD,College Park,R1,Public,50000,41000,Engineering - sciences - business - agriculture,VP for Institutional Advancement,600000,Tech - agriculture - leadership - research,Research Universities (R1/R2)
+University of Southern California,CA,Los Angeles,R1,Private Not-for-Profit,48000,20000,Engineering - business - medicine - sciences,VP for University Advancement,1000000,Entertainment - tech - leadership - capital,Research Universities (R1/R2)
+Emory University,GA,Atlanta,R1,Private Not-for-Profit,32000,14000,Medicine - business - law - sciences,VP for Campaign Leadership,1100000,Medical breakthroughs - leadership - companies,Research Universities (R1/R2)
+Cornell University,NY,Ithaca,R1,Private Not-for-Profit,38000,25000,Engineering - agriculture - sciences - business,VP of University Relations,1100000,Tech - agriculture - leadership - capital,Research Universities (R1/R2)
+Penn State University,PA,University Park,R1,Public,58000,46000,Engineering - sciences - business - agriculture,VP for Development and Alumni Relations,700000,Tech - agriculture - companies - leadership,Research Universities (R1/R2)
+Purdue University,IN,West Lafayette,R1,Public,52000,43000,Engineering - sciences - agriculture - business,VP for Development,650000,Tech - engineering - companies - leadership,Research Universities (R1/R2)
+University of Texas at Austin,TX,Austin,R1,Public,72000,52000,Engineering - business - sciences - liberal arts,VP for Development,750000,Tech startups - companies - capital,Research Universities (R1/R2)
+University of Pittsburgh,PA,Pittsburgh,R1,Private Not-for-Profit,38000,28000,Medicine - engineering - sciences - business,VP for Development,900000,Medical innovations - tech - leadership,Research Universities (R1/R2)
+Rice University,TX,Houston,R1,Private Not-for-Profit,24000,7500,Engineering - sciences - business - liberal arts,VP for University Relations,1000000,Tech entrepreneurs - capital - leadership,Research Universities (R1/R2)
+New York University,NY,New York,R1,Private Not-for-Profit,48000,50000,Business - law - medicine - arts - sciences,Senior VP for Advancement,1200000,Entrepreneurs - companies - leadership - capital,Research Universities (R1/R2)
+University of Rochester,NY,Rochester,R1,Private Not-for-Profit,26000,12000,Engineering - sciences - business - medicine,VP for Advancement,700000,Tech companies - leadership - research,Research Universities (R1/R2)
+Case Western Reserve University,OH,Cleveland,R1,Private Not-for-Profit,22000,12000,Engineering - medicine - sciences - business,VP for University Relations,600000,Medical innovations - tech - leadership,Research Universities (R1/R2)
+University of Notre Dame,IN,Notre Dame,R1,Private Not-for-Profit,32000,12000,Engineering - law - business - sciences,VP of University Relations,1100000,Leadership - entrepreneurs - capital - companies,Research Universities (R1/R2)
+Vanderbilt University,TN,Nashville,R1,Private Not-for-Profit,30000,14000,Medicine - business - engineering - sciences,VP for University Advancement,900000,Medical breakthroughs - leadership - companies,Research Universities (R1/R2)
+Tufts University,MA,Medford,R1,Private Not-for-Profit,28000,12000,Medicine - engineering - sciences - policy,VP for Development,800000,Medical research - tech - leadership,Research Universities (R1/R2)
+University of Southern Methodist University,TX,Dallas,R1,Private Not-for-Profit,24000,12000,Business - engineering - law - sciences,VP for Institutional Advancement,700000,Business leaders - entrepreneurs - capital,Research Universities (R1/R2)
+Washington University in St Louis,MO,St Louis,R1,Private Not-for-Profit,28000,15000,Medicine - engineering - business - sciences,VP for Development,800000,Medical innovations - tech - leadership,Research Universities (R1/R2)
+Brandeis University,MA,Waltham,R1,Private Not-for-Profit,20000,6000,Sciences - business - social sciences - humanities,VP for Institutional Advancement,500000,Research - leadership - companies,Research Universities (R1/R2)
+University of California San Diego,CA,San Diego,R1,Public,58000,32000,Engineering - sciences - medicine - business,Vice Chancellor for Development,600000,Tech companies - medical research - leadership,Research Universities (R1/R2)
+University of California Irvine,CA,Irvine,R1,Public,48000,30000,Engineering - sciences - medicine - business,VP for Institutional Advancement,500000,Tech companies - medical research - leadership,Research Universities (R1/R2)
+University of California Davis,CA,Davis,R1,Public,48000,38000,Agriculture - engineering - sciences - medicine,VP for Institutional Advancement,500000,Agricultural innovation - medical research - tech,Research Universities (R1/R2)
+University of California Santa Barbara,CA,Santa Barbara,R1,Public,38000,24000,Sciences - engineering - liberal arts,Vice Chancellor for Development,500000,Physics - technology - research - leadership,Research Universities (R1/R2)
+Texas A&M University,TX,College Station,R1,Public,62000,70000,Engineering - agriculture - medicine - sciences,VP for Advancement,600000,Engineering - agriculture - tech - leadership,Research Universities (R1/R2)
+University of Houston,TX,Houston,R1,Public,48000,46000,Engineering - medicine - business - sciences,VP for Advancement,500000,Energy - tech - medical research - leadership,Research Universities (R1/R2)
+Arizona State University,AZ,Tempe,R1,Public,62000,70000,All research disciplines,VP for Advancement,700000,Tech - engineering - business - leadership,Research Universities (R1/R2)
+Virginia Commonwealth University,VA,Richmond,R1,Public,38000,31000,Medicine - engineering - sciences - business,VP for Advancement,450000,Medical innovations - tech - leadership,Research Universities (R1/R2)
+Temple University,PA,Philadelphia,R1,Public,32000,37000,Medicine - engineering - business - sciences,VP for Institutional Advancement,400000,Medical research - tech - leadership,Research Universities (R1/R2)
+University of Nevada Las Vegas,NV,Las Vegas,R1,Public,32000,31000,Engineering - sciences - business - hospitality,VP for Advancement,400000,Hospitality - tech - leadership,Research Universities (R1/R2)
+University of New Mexico,NM,Albuquerque,R1,Public,32000,26000,Engineering - sciences - medicine - business,VP for Advancement,350000,Energy - tech - medical research - leadership,Research Universities (R1/R2)
+University of Wyoming,WY,Laramie,R1,Public,22000,12000,Engineering - sciences - agriculture - business,VP for Development,300000,Energy - agriculture - tech - leadership,Research Universities (R1/R2)
+University of Kansas,KS,Lawrence,R1,Public,32000,27000,Engineering - medicine - sciences - business,VP for Development,350000,Medical research - tech - leadership,Research Universities (R1/R2)
+Iowa State University,IA,Ames,R1,Public,42000,36000,Engineering - agriculture - sciences - business,VP for Advancement,400000,Agriculture - engineering - tech - leadership,Research Universities (R1/R2)
+University of Iowa,IA,Iowa City,R1,Public,36000,32000,Medicine - engineering - sciences - business,VP for Development,400000,Medical research - tech - leadership,Research Universities (R1/R2)
+University of Missouri,MO,Columbia,R1,Public,42000,35000,Engineering - medicine - business - sciences,VP for Development,450000,Engineering - medical research - tech - leadership,Research Universities (R1/R2)
+University of Nebraska Lincoln,NE,Lincoln,R1,Public,38000,25000,Engineering - agriculture - sciences - business,VP for Development,350000,Agriculture - tech - leadership,Research Universities (R1/R2)
+Oregon State University,OR,Corvallis,R1,Public,38000,33000,Engineering - agriculture - sciences - business,VP for Advancement,400000,Agriculture - engineering - tech - leadership,Research Universities (R1/R2)
+University of Oregon,OR,Eugene,R1,Public,32000,23000,Business - engineering - sciences - education,VP for Advancement,350000,Tech - business - leadership,Research Universities (R1/R2)
+Washington State University,WA,Pullman,R1,Public,38000,31000,Engineering - agriculture - sciences - business,VP for Development,400000,Agriculture - tech - engineering - leadership,Research Universities (R1/R2)
+University of Oklahoma,OK,Norman,R1,Public,38000,28000,Engineering - medicine - business - sciences,VP for Development,400000,Energy - medical research - leadership,Research Universities (R1/R2)
+University of Arkansas,AR,Fayetteville,R1,Public,32000,28000,Engineering - agriculture - business - sciences,VP for Development,350000,Agriculture - engineering - leadership,Research Universities (R1/R2)
+Auburn University,AL,Auburn,R1,Public,38000,30000,Engineering - agriculture - sciences - business,VP for Development,400000,Engineering - agriculture - tech - leadership,Research Universities (R1/R2)
+University of Alabama,AL,Tuscaloosa,R1,Public,42000,38000,Engineering - medicine - business - sciences,VP for Development,450000,Engineering - medical research - leadership,Research Universities (R1/R2)
+University of South Carolina,SC,Columbia,R1,Public,38000,34000,Engineering - medicine - business - sciences,VP for Development,400000,Medical research - tech - leadership,Research Universities (R1/R2)
+Clemson University,SC,Clemson,R1,Public,36000,28000,Engineering - agriculture - sciences - business,VP for Advancement,350000,Engineering - agriculture - tech - leadership,Research Universities (R1/R2)
+Georgia Institute of Technology,GA,Atlanta,R1,Public,48000,28000,Engineering - sciences - management - architecture,VP for Advancement,700000,Tech startups - engineering - capital,Research Universities (R1/R2)
+University of Kentucky,KY,Lexington,R1,Public,36000,30000,Medicine - engineering - sciences - business,VP for Advancement,350000,Medical research - tech - leadership,Research Universities (R1/R2)
+University of Tennessee Knoxville,TN,Knoxville,R1,Public,38000,30000,Engineering - medicine - sciences - business,VP for Advancement,400000,Medical research - tech - leadership,Research Universities (R1/R2)
+Rutgers University,NJ,New Brunswick,R1,Public,52000,50000,All research disciplines,VP for University Relations,650000,Tech - medical research - leadership,Research Universities (R1/R2)
+University of Connecticut,CT,Storrs,R1,Public,38000,31000,Engineering - medicine - business - sciences,VP for Development,400000,Tech - medical research - leadership,Research Universities (R1/R2)
+University of Massachusetts Amherst,MA,Amherst,R1,Public,36000,31000,Engineering - sciences - business - education,VP for Development,350000,Tech - leadership,Research Universities (R1/R2)
+Boston University,MA,Boston,R1,Private Not-for-Profit,34000,36000,Engineering - medicine - business - sciences,VP for Development,700000,Medical research - tech - leadership,Research Universities (R1/R2)
+Northeastern University,MA,Boston,R1,Private Not-for-Profit,32000,34000,Engineering - medicine - business - technology,VP for Institutional Advancement,600000,Tech entrepreneurs - companies - capital,Research Universities (R1/R2)
+University of Delaware,DE,Newark,R1,Public,28000,23000,Engineering - sciences - business - education,VP for Development,300000,Tech - leadership,Research Universities (R1/R2)
+Carnegie Mellon University,PA,Pittsburgh,R1,Private Not-for-Profit,26000,15000,Engineering - computer science - business - drama,VP for Advancement,900000,Tech startups - capital - companies,Research Universities (R1/R2)
+University of Pennsylvania,PA,Philadelphia,R1,Private Not-for-Profit,38000,25000,Medicine - engineering - law - business,VP for Development,1300000,Entrepreneurs - capital - leadership,Research Universities (R1/R2)
+George Washington University,DC,Washington,R1,Private Not-for-Profit,26000,27000,Medicine - engineering - business - law,VP for Institutional Advancement,600000,Leadership - entrepreneurs - government,Research Universities (R1/R2)
+Georgetown University,DC,Washington,R1,Private Not-for-Profit,28000,18000,Medicine - law - business - sciences,VP for Advancement,700000,Legal leaders - entrepreneurs - government,Research Universities (R1/R2)
+Howard University,DC,Washington,R1,Private Not-for-Profit,24000,10500,Medicine - law - engineering - sciences,VP for Advancement,300000,Medical leaders - entrepreneurs - leadership,Research Universities (R1/R2)
+American University,DC,Washington,R1,Private Not-for-Profit,20000,13000,Business - law - engineering - sciences,VP for Development,400000,Government leaders - entrepreneurs,Research Universities (R1/R2)
+University of Miami,FL,Coral Gables,R1,Private Not-for-Profit,24000,18000,Medicine - law - business - sciences,VP for Development,500000,Medical research - leadership - capital,Research Universities (R1/R2)
+Florida International University,FL,Miami,R1,Public,36000,58000,Engineering - medicine - business - sciences,VP for Advancement,400000,Tech - leadership,Research Universities (R1/R2)
+University of South Florida,FL,Tampa,R1,Public,40000,47000,Medicine - engineering - business - sciences,VP for Advancement,450000,Medical research - tech - leadership,Research Universities (R1/R2)
+Georgia State University,GA,Atlanta,R1,Public,38000,53000,Business - engineering - sciences - education,VP for Advancement,400000,Business leaders - tech - leadership,Research Universities (R1/R2)
+University of Tennessee Health Science Center,TN,Memphis,R1,Public,18000,3500,Medicine - health sciences,VP for Development,250000,Medical innovations - leadership,Research Universities (R1/R2)
+University of Utah,UT,Salt Lake City,R1,Public,38000,33000,Medicine - engineering - sciences - business,VP for Development,400000,Medical research - tech - leadership,Research Universities (R1/R2)
+University of Hawaii Manoa,HI,Honolulu,R1,Public,28000,20000,Sciences - engineering - agriculture,VP for Research and Development,350000,Research - tech - leadership,Research Universities (R1/R2)
+University of Idaho,ID,Moscow,R1,Public,22000,12000,Engineering - sciences - business - agriculture,VP for Development,250000,Agriculture - tech - leadership,Research Universities (R1/R2)
+Montana State University,MT,Bozeman,R1,Public,22000,16000,Engineering - agriculture - sciences,VP for Development,250000,Agriculture - engineering - tech,Research Universities (R1/R2)
+University of Montana,MT,Missoula,R1,Public,18000,11000,Sciences - business - education - engineering,VP for Development,200000,Leadership - tech,Research Universities (R1/R2)
+University of South Dakota,SD,Vermillion,R1,Public,18000,10000,Medicine - engineering - sciences,VP for Development,180000,Medical research - leadership,Research Universities (R1/R2)
+South Dakota State University,SD,Brookings,R1,Public,20000,12000,Engineering - agriculture - sciences - business,VP for Development,200000,Agriculture - tech - leadership,Research Universities (R1/R2)
+University of North Dakota,ND,Grand Forks,R1,Public,18000,11000,Engineering - sciences - medicine - business,VP for Development,180000,Medical research - tech - leadership,Research Universities (R1/R2)
+North Dakota State University,ND,Fargo,R1,Public,20000,14000,Engineering - agriculture - sciences - business,VP for Development,200000,Agriculture - engineering - tech,Research Universities (R1/R2)
+Colorado State University,CO,Fort Collins,R1,Public,36000,33000,Agriculture - engineering - sciences - veterinary,VP for Development,400000,Agriculture - tech - veterinary medicine,Research Universities (R1/R2)
+University of Utah,UT,Salt Lake City,R1,Public,38000,33000,Medicine - engineering - sciences - business,VP for Development,400000,Medical research - tech - leadership,Research Universities (R1/R2)
+Brigham Young University,UT,Provo,R1,Private Not-for-Profit,32000,33000,Engineering - sciences - business - law,VP for Development,500000,Tech entrepreneurs - companies - capital,Research Universities (R1/R2)
+University of Nevada Reno,NV,Reno,R1,Public,22000,20000,Engineering - sciences - business,VP for Development,250000,Tech - leadership,Research Universities (R1/R2)
+New Mexico State University,NM,Las Cruces,R1,Public,22000,15000,Agriculture - engineering - sciences - business,VP for Development,250000,Agriculture - tech - leadership,Research Universities (R1/R2)
+University of Dubuque,IA,Dubuque,R2,Private Not-for-Profit,10000,2500,Business - education - liberal arts,Development Director,150000,Leadership - business professionals,Research Universities (R1/R2)
+Auburn University at Montgomery,AL,Montgomery,R2,Public,12000,5000,Business - engineering - sciences - education,Director of Development,200000,Business leaders - tech,Research Universities (R1/R2)
+University of Idaho,ID,Moscow,R1,Public,22000,12000,Engineering - sciences - business - agriculture,VP for Development,250000,Agriculture - tech - leadership,Research Universities (R1/R2)
+Amherst College,MA,Amherst,Baccalaureate,Private Not-for-Profit,18000,1850,Liberal arts,Director of Development,500000,Leadership - entrepreneurs - graduate degrees,Liberal Arts Colleges
+Williams College,MA,Williamstown,Baccalaureate,Private Not-for-Profit,16000,2000,Liberal arts,Director of Development,450000,Leadership - entrepreneurs - capital,Liberal Arts Colleges
+Swarthmore College,PA,Swarthmore,Baccalaureate,Private Not-for-Profit,14000,1600,Liberal arts - engineering,Director of Development,400000,Entrepreneurs - leadership - companies,Liberal Arts Colleges
+Wellesley College,MA,Wellesley,Baccalaureate,Private Not-for-Profit,12000,2300,Liberal arts,Director of Development,350000,Women leaders - entrepreneurs,Liberal Arts Colleges
+Middlebury College,VT,Middlebury,Baccalaureate,Private Not-for-Profit,14000,2550,Liberal arts - environmental,Director of Development,400000,Environmental leaders - entrepreneurs,Liberal Arts Colleges
+Dartmouth College,NH,Hanover,Baccalaureate,Private Not-for-Profit,20000,6800,Liberal arts - engineering - professional,VP for Development,900000,Tech entrepreneurs - leadership - capital,Liberal Arts Colleges
+Bowdoin College,ME,Brunswick,Baccalaureate,Private Not-for-Profit,12000,1800,Liberal arts,Director of Development,350000,Leadership - entrepreneurs,Liberal Arts Colleges
+Colby College,ME,Waterville,Baccalaureate,Private Not-for-Profit,12000,1850,Liberal arts,Director of Development,350000,Leadership - entrepreneurs,Liberal Arts Colleges
+Colgate University,NY,Hamilton,Baccalaureate,Private Not-for-Profit,14000,2900,Liberal arts,Director of Development,400000,Leadership - entrepreneurs - capital,Liberal Arts Colleges
+Hamilton College,NY,Clinton,Baccalaureate,Private Not-for-Profit,12000,1850,Liberal arts - engineering,Director of Development,350000,Engineers - entrepreneurs,Liberal Arts Colleges
+Carleton College,MN,Northfield,Baccalaureate,Private Not-for-Profit,12000,2050,Liberal arts - sciences,Director of Development,350000,Scientists - leaders - entrepreneurs,Liberal Arts Colleges
+Oberlin College,OH,Oberlin,Baccalaureate,Private Not-for-Profit,12000,2800,Liberal arts - conservatory,Director of Development,350000,Arts leaders - entrepreneurs - musicians,Liberal Arts Colleges
+Wesleyan University,CT,Middletown,Baccalaureate,Private Not-for-Profit,14000,2800,Liberal arts - sciences,Director of Development,400000,Scientists - entrepreneurs - leaders,Liberal Arts Colleges
+Vassar College,NY,Poughkeepsie,Baccalaureate,Private Not-for-Profit,14000,2400,Liberal arts - sciences,Director of Development,400000,Leaders - artists - entrepreneurs,Liberal Arts Colleges
+Barnard College,NY,New York,Baccalaureate,Private Not-for-Profit,12000,2850,Liberal arts,Director of Development,400000,Women leaders - entrepreneurs - capital,Liberal Arts Colleges
+Smith College,MA,Northampton,Baccalaureate,Private Not-for-Profit,12000,2500,Liberal arts,Director of Development,350000,Women leaders - entrepreneurs,Liberal Arts Colleges
+Mount Holyoke College,MA,South Hadley,Baccalaureate,Private Not-for-Profit,11000,2200,Liberal arts,Director of Development,300000,Women leaders - entrepreneurs,Liberal Arts Colleges
+Bryn Mawr College,PA,Bryn Mawr,Baccalaureate,Private Not-for-Profit,11000,1700,Liberal arts,Director of Development,300000,Women leaders - entrepreneurs,Liberal Arts Colleges
+Haverford College,PA,Haverford,Baccalaureate,Private Not-for-Profit,10000,1300,Liberal arts - sciences,Director of Development,300000,Scientists - entrepreneurs,Liberal Arts Colleges
+Grinnell College,IA,Grinnell,Baccalaureate,Private Not-for-Profit,10000,1700,Liberal arts,Director of Development,300000,Leaders - entrepreneurs,Liberal Arts Colleges
+Kenyon College,OH,Gambier,Baccalaureate,Private Not-for-Profit,10000,1700,Liberal arts,Director of Development,300000,Leaders - artists,Liberal Arts Colleges
+Whitman College,WA,Walla Walla,Baccalaureate,Private Not-for-Profit,10000,1450,Liberal arts,Director of Development,300000,Leaders - entrepreneurs,Liberal Arts Colleges
+Pomona College,CA,Claremont,Baccalaureate,Private Not-for-Profit,12000,1600,Liberal arts,Director of Development,400000,Tech leaders - entrepreneurs - capital,Liberal Arts Colleges
+Harvey Mudd College,CA,Claremont,Baccalaureate,Private Not-for-Profit,8000,850,Sciences - engineering,Director of Development,300000,Tech entrepreneurs - capital,Liberal Arts Colleges
+Colorado College,CO,Colorado Springs,Baccalaureate,Private Not-for-Profit,10000,2000,Liberal arts,Director of Development,300000,Leaders - entrepreneurs,Liberal Arts Colleges
+Macalester College,MN,St Paul,Baccalaureate,Private Not-for-Profit,10000,2100,Liberal arts,Director of Development,300000,Global leaders - entrepreneurs,Liberal Arts Colleges
+Reed College,OR,Portland,Baccalaureate,Private Not-for-Profit,9000,1450,Liberal arts,Director of Development,250000,Artists - leaders,Liberal Arts Colleges
+Swarthmore College,PA,Swarthmore,Baccalaureate,Private Not-for-Profit,14000,1600,Liberal arts - engineering,Director of Development,400000,Entrepreneurs - leadership - companies,Liberal Arts Colleges
+Scripps College,CA,Claremont,Baccalaureate,Private Not-for-Profit,8000,1050,Liberal arts,Director of Development,250000,Women leaders - entrepreneurs,Liberal Arts Colleges
+Union College,NY,Schenectady,Baccalaureate,Private Not-for-Profit,10000,2200,Liberal arts - engineering,Director of Development,300000,Engineers - leaders,Liberal Arts Colleges
+Dickinson College,PA,Carlisle,Baccalaureate,Private Not-for-Profit,10000,2400,Liberal arts,Director of Development,300000,Leaders - entrepreneurs,Liberal Arts Colleges
+Lafayette College,PA,Easton,Baccalaureate,Private Not-for-Profit,11000,2500,Liberal arts - engineering,Director of Development,350000,Engineers - entrepreneurs - leaders,Liberal Arts Colleges
+Bucknell University,PA,Lewisburg,Baccalaureate,Private Not-for-Profit,12000,3600,Liberal arts - engineering,Director of Development,350000,Engineers - entrepreneurs - leaders,Liberal Arts Colleges
+Lehigh University,PA,Bethlehem,Baccalaureate,Private Not-for-Profit,12000,7000,Liberal arts - engineering - business,Director of Development,400000,Engineers - business leaders - entrepreneurs,Liberal Arts Colleges
+Trinity College,CT,Hartford,Baccalaureate,Private Not-for-Profit,10000,2200,Liberal arts,Director of Development,300000,Leaders - entrepreneurs,Liberal Arts Colleges
+Connecticut College,CT,New London,Baccalaureate,Private Not-for-Profit,9000,1700,Liberal arts,Director of Development,250000,Leaders - entrepreneurs,Liberal Arts Colleges
+Gettysburg College,PA,Gettysburg,Baccalaureate,Private Not-for-Profit,9000,1900,Liberal arts,Director of Development,250000,Leaders - entrepreneurs,Liberal Arts Colleges
+Skidmore College,NY,Saratoga Springs,Baccalaureate,Private Not-for-Profit,10000,2600,Liberal arts - business,Director of Development,300000,Business leaders - entrepreneurs,Liberal Arts Colleges
+Ripon College,WI,Ripon,Baccalaureate,Private Not-for-Profit,7000,900,Liberal arts,Director of Development,150000,Leaders - entrepreneurs,Liberal Arts Colleges
+Allegheny College,PA,Meadville,Baccalaureate,Private Not-for-Profit,8000,1800,Liberal arts,Director of Development,200000,Leaders - entrepreneurs,Liberal Arts Colleges
+College of Wooster,OH,Wooster,Baccalaureate,Private Not-for-Profit,9000,1900,Liberal arts,Director of Development,250000,Leaders - entrepreneurs,Liberal Arts Colleges
+DePauw University,IN,Greencastle,Baccalaureate,Private Not-for-Profit,9000,2100,Liberal arts,Director of Development,250000,Business leaders - entrepreneurs,Liberal Arts Colleges
+Austin College,TX,Sherman,Baccalaureate,Private Not-for-Profit,7000,1300,Liberal arts,Director of Development,150000,Leaders - entrepreneurs,Liberal Arts Colleges
+Trinity University,TX,San Antonio,Baccalaureate,Private Not-for-Profit,9000,2500,Liberal arts - engineering,Director of Development,250000,Engineers - leaders - entrepreneurs,Liberal Arts Colleges
+Southern Methodist University,TX,Dallas,Baccalaureate,Private Not-for-Profit,8000,6500,Liberal arts - engineering - business,Development Director,300000,Business leaders - engineers,Liberal Arts Colleges
+Tulane University,LA,New Orleans,Baccalaureate,Private Not-for-Profit,12000,8500,Liberal arts - engineering - business,Director of Development,350000,Business leaders - entrepreneurs - capital,Liberal Arts Colleges
+Furman University,SC,Greenville,Baccalaureate,Private Not-for-Profit,8000,2700,Liberal arts,Director of Development,200000,Leaders - entrepreneurs,Liberal Arts Colleges
+Wake Forest University,NC,Winston-Salem,Baccalaureate,Private Not-for-Profit,10000,5300,Liberal arts - business - law,Director of Development,300000,Business leaders - lawyers - entrepreneurs,Liberal Arts Colleges
+Davidson College,NC,Davidson,Baccalaureate,Private Not-for-Profit,9000,1800,Liberal arts,Director of Development,250000,Leaders - entrepreneurs,Liberal Arts Colleges
+College of Charleston,SC,Charleston,Baccalaureate,Public,12000,11000,Liberal arts - sciences,Director of Development,250000,Leaders - entrepreneurs - scientists,Liberal Arts Colleges
+University of Richmond,VA,Richmond,Baccalaureate,Private Not-for-Profit,10000,4000,Liberal arts - business,Director of Development,300000,Business leaders - entrepreneurs,Liberal Arts Colleges
+William and Mary,VA,Williamsburg,Baccalaureate,Public,12000,8600,Liberal arts - business,Director of Development,300000,Business leaders - entrepreneurs,Liberal Arts Colleges
+Clark University,MA,Worcester,Baccalaureate,Private Not-for-Profit,10000,3400,Liberal arts - sciences,Director of Development,300000,Scientists - entrepreneurs,Liberal Arts Colleges
+Holy Cross,MA,Worcester,Baccalaureate,Private Not-for-Profit,8000,2900,Liberal arts,Director of Development,200000,Leaders - entrepreneurs,Liberal Arts Colleges
+Santa Clara University,CA,Santa Clara,Baccalaureate,Private Not-for-Profit,9000,5300,Engineering - business - liberal arts,Director of Development,250000,Engineers - business leaders - entrepreneurs,Liberal Arts Colleges
+Gonzaga University,WA,Spokane,Baccalaureate,Private Not-for-Profit,8000,7200,Liberal arts - business - engineering,Director of Development,200000,Business leaders - engineers,Liberal Arts Colleges
+Xavier University,OH,Cincinnati,Baccalaureate,Private Not-for-Profit,9000,6300,Liberal arts - business - sciences,Director of Development,250000,Business leaders - entrepreneurs,Liberal Arts Colleges
+Marquette University,WI,Milwaukee,Baccalaureate,Private Not-for-Profit,10000,8300,Liberal arts - engineering - business,Director of Development,300000,Business leaders - engineers,Liberal Arts Colleges
+De Paul University,IL,Chicago,Baccalaureate,Private Not-for-Profit,12000,23000,Business - liberal arts - law,Director of Development,350000,Business leaders - entrepreneurs - lawyers,Liberal Arts Colleges
+Loyola Marymount University,CA,Los Angeles,Baccalaureate,Private Not-for-Profit,10000,9000,Liberal arts - business - law,Director of Development,300000,Business leaders - lawyers - entrepreneurs,Liberal Arts Colleges
+Pepperdine University,CA,Malibu,Baccalaureate,Private Not-for-Profit,10000,3500,Liberal arts - business - law,Director of Development,300000,Business leaders - lawyers - entrepreneurs,Liberal Arts Colleges
+Fordham University,NY,New York,Baccalaureate,Private Not-for-Profit,12000,16000,Liberal arts - business - law - sciences,Director of Development,350000,Business leaders - lawyers - entrepreneurs,Liberal Arts Colleges
+Boston College,MA,Chestnut Hill,Baccalaureate,Private Not-for-Profit,14000,14000,Liberal arts - business - nursing,Director of Development,400000,Business leaders - leaders - entrepreneurs,Liberal Arts Colleges
+Villanova University,PA,Villanova,Baccalaureate,Private Not-for-Profit,12000,10500,Engineering - business - liberal arts,Director of Development,350000,Engineers - business leaders,Liberal Arts Colleges
+University of San Diego,CA,San Diego,Baccalaureate,Private Not-for-Profit,9000,8500,Liberal arts - business - law,Director of Development,250000,Business leaders - lawyers - entrepreneurs,Liberal Arts Colleges
+Loyola University Chicago,IL,Chicago,Baccalaureate,Private Not-for-Profit,10000,11500,Liberal arts - business - law - sciences,Director of Development,300000,Business leaders - lawyers - entrepreneurs,Liberal Arts Colleges
+Miami University Oxford,OH,Oxford,Baccalaureate,Public,10000,18500,Liberal arts - business - sciences,Development Director,250000,Business leaders - entrepreneurs,Liberal Arts Colleges
+University of Iowa,IA,Iowa City,Baccalaureate,Public,12000,32000,Liberal arts - sciences - engineering,Development Director,300000,Scientists - engineers - leaders,Liberal Arts Colleges
+University of Illinois Urbana-Champaign,IL,Urbana,Baccalaureate,Public,14000,48000,Liberal arts - sciences - engineering,Development Director,350000,Engineers - scientists - leaders,Liberal Arts Colleges
+College of William and Mary,VA,Williamsburg,Baccalaureate,Public,12000,8600,Liberal arts - sciences,Director of Development,300000,Scientists - leaders - entrepreneurs,Liberal Arts Colleges
+Kalamazoo College,MI,Kalamazoo,Baccalaureate,Private Not-for-Profit,7000,1400,Liberal arts,Director of Development,150000,Leaders - entrepreneurs,Liberal Arts Colleges
+Rollins College,FL,Winter Park,Baccalaureate,Private Not-for-Profit,6000,1500,Liberal arts,Director of Development,150000,Leaders - entrepreneurs,Liberal Arts Colleges
+Eckerd College,FL,St Petersburg,Baccalaureate,Private Not-for-Profit,5000,1300,Liberal arts,Director of Development,100000,Leaders - entrepreneurs,Liberal Arts Colleges
+Miami University,OH,Oxford,Baccalaureate,Public,10000,18500,Liberal arts - business - sciences,Development Director,250000,Business leaders - entrepreneurs,Liberal Arts Colleges
+College of the Desert,CA,Palm Desert,Associate,Public,5000,9000,Career and technical education,Dean of Institutional Development,100000,Workforce development - local economic impact,Community Colleges (Large)
+Houston Community College,TX,Houston,Associate,Public,8000,68000,Career and technical education,VP of Development,150000,Workforce development - local economic impact,Community Colleges (Large)
+Miami Dade College,FL,Miami,Associate,Public,12000,65000,Career and technical education - transfer,VP of Development,200000,Workforce development - entrepreneurship,Community Colleges (Large)
+Tarrant County College,TX,Fort Worth,Associate,Public,8000,50000,Career and technical education,Director of Development,150000,Workforce development - local economic impact,Community Colleges (Large)
+Lone Star College,TX,Houston,Associate,Public,10000,95000,Career and technical education,Director of Development,200000,Workforce development - local economic impact,Community Colleges (Large)
+Maricopa County Community College,AZ,Phoenix,Associate,Public,12000,215000,Career and technical education,VP of Development,250000,Workforce development - local economic impact,Community Colleges (Large)
+Los Angeles Community College,CA,Los Angeles,Associate,Public,14000,243000,Career and technical education - transfer,VP of Development,300000,Workforce development - entrepreneurship - transfer,Community Colleges (Large)
+Chicago City Colleges,IL,Chicago,Associate,Public,10000,85000,Career and technical education,Director of Development,150000,Workforce development - local economic impact,Community Colleges (Large)
+New York Community Colleges,NY,New York,Associate,Public,12000,200000,Career and technical education - transfer,VP of Development,250000,Workforce development - transfer - entrepreneurship,Community Colleges (Large)
+Fresno City College,CA,Fresno,Associate,Public,8000,24000,Career and technical education - transfer,Director of Development,150000,Workforce development - transfer,Community Colleges (Large)
+Bakersfield College,CA,Bakersfield,Associate,Public,6000,16000,Career and technical education,Director of Development,100000,Workforce development,Community Colleges (Large)
+State University of New York Community Colleges,NY,Multiple,Associate,Public,14000,95000,Career and technical education - transfer,VP of Development,250000,Workforce development - transfer - local economic impact,Community Colleges (Large)
+Pennsylvania Community Colleges,PA,Multiple,Associate,Public,10000,60000,Career and technical education - transfer,Director of Development,150000,Workforce development - transfer,Community Colleges (Large)
+Florida College System,FL,Multiple,Associate,Public,12000,150000,Career and technical education - transfer,Director of Development,200000,Workforce development - transfer - entrepreneurship,Community Colleges (Large)
+Georgia Perimeter College,GA,Decatur,Associate,Public,8000,23000,Career and technical education,Director of Development,150000,Workforce development,Community Colleges (Large)
+Wake Technical Community College,NC,Raleigh,Associate,Public,6000,22000,Career and technical education,Director of Development,100000,Workforce development - tech training,Community Colleges (Large)
+Northern Virginia Community College,VA,Annandale,Associate,Public,7000,50000,Career and technical education - transfer,Director of Development,150000,Workforce development - transfer - local economic impact,Community Colleges (Large)
+Montgomery County Community College,MD,Blue Bell,Associate,Public,6000,24000,Career and technical education,Director of Development,100000,Workforce development,Community Colleges (Large)
+De Anza College,CA,Cupertino,Associate,Public,5000,22000,Career and technical education - transfer,Director of Development,100000,Tech workforce development,Community Colleges (Large)
+Foothill College,CA,Los Altos Hills,Associate,Public,4000,15000,Career and technical education,Director of Development,80000,Tech workforce development,Community Colleges (Large)
+Diablo Valley College,CA,Pleasant Hill,Associate,Public,5000,18000,Career and technical education - transfer,Director of Development,100000,Workforce development - transfer,Community Colleges (Large)
+Chabot College,CA,Hayward,Associate,Public,4000,13000,Career and technical education,Director of Development,80000,Workforce development,Community Colleges (Large)
+Merced College,CA,Los Banos,Associate,Public,3000,10000,Career and technical education,Director of Development,60000,Workforce development,Community Colleges (Large)
+Modesto Junior College,CA,Modesto,Associate,Public,5000,16000,Career and technical education - transfer,Director of Development,100000,Workforce development - transfer,Community Colleges (Large)
+Stanislaus State,CA,Turlock,Associate,Public,6000,9500,Career and technical education,Director of Development,100000,Workforce development,Community Colleges (Large)
+Sac State,CA,Sacramento,Associate,Public,6000,32000,Career and technical education - transfer,Director of Development,100000,Workforce development - transfer,Community Colleges (Large)
+City College of San Francisco,CA,San Francisco,Associate,Public,5000,17000,Career and technical education,Director of Development,100000,Workforce development,Community Colleges (Large)
+Cuesta College,CA,San Luis Obispo,Associate,Public,3000,8000,Career and technical education,Director of Development,60000,Workforce development,Community Colleges (Large)
+Santa Barbara City College,CA,Santa Barbara,Associate,Public,4000,11000,Career and technical education - transfer,Director of Development,80000,Workforce development - transfer,Community Colleges (Large)
+Ventura College,CA,Ojai,Associate,Public,4000,12000,Career and technical education,Director of Development,80000,Workforce development,Community Colleges (Large)
+Moorpark College,CA,Moorpark,Associate,Public,3000,13000,Career and technical education,Director of Development,60000,Workforce development,Community Colleges (Large)
+Oxnard College,CA,Oxnard,Associate,Public,3000,10000,Career and technical education,Director of Development,60000,Workforce development,Community Colleges (Large)
+Santa Clarita College,CA,Santa Clarita,Associate,Public,2000,5000,Career and technical education,Director of Development,50000,Workforce development,Community Colleges (Large)
+College of the Sequoias,CA,Visalia,Associate,Public,4000,12000,Career and technical education - agriculture,Director of Development,80000,Agricultural workforce development,Community Colleges (Large)
+Rogue Community College,OR,Grants Pass,Associate,Public,3000,8000,Career and technical education,Director of Development,60000,Workforce development,Community Colleges (Large)
+Lane Community College,OR,Eugene,Associate,Public,4000,10000,Career and technical education - transfer,Director of Development,80000,Workforce development - transfer,Community Colleges (Large)
+Chemeketa Community College,OR,Salem,Associate,Public,4000,10000,Career and technical education - transfer,Director of Development,80000,Workforce development - transfer,Community Colleges (Large)
+Mt Hood Community College,OR,Gresham,Associate,Public,3000,8000,Career and technical education,Director of Development,60000,Workforce development,Community Colleges (Large)
+Clatsop Community College,OR,Astoria,Associate,Public,1000,1200,Career and technical education,Development Director,30000,Workforce development,Community Colleges (Large)
